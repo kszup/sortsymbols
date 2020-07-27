@@ -1,1034 +1,1698 @@
-00032c0c    ID_COUNT    0x2 Data Gb sim-eeprom2.o [22]
+00000	halAppAddressTable	0xac Data Gb cstartup-common.o [15]
 
-00032c0e    PTR_CACHE_SIZE    0x2 Data Gb sim-eeprom2.o [22]
+0000200	__vector_table	0x10c Data Gb startup_efr32mg12p.o [38]
 
-2003de44    RAILINT_0167c56a4998a49d75b6c56d1b49fe2d    2003e015    RAILINT_02b5f58b2ace2c87fac8c8ae61769272    0000f1ac    RAILINT_046ec880f80d9b9e6f8a12ec802b3587    2003e011    RAILINT_05831ea87f834358b3b734107f7b63dd    2003de4c    RAILINT_0c09f9501fa8d2229fe5bf287a349bbb    00031408    RAILINT_0cdb976df793f6799e20dfa42e2be4c6    00031198    RAILINT_10b7a154e356e09da3dd27e286e37127    2003feec    RAILINT_116bc923d0e61993c95103150eecb77d    2003ffe9    RAILINT_12d0a500396abb3bce50542312241d3c    2003ddd0    RAILINT_178c5690dd72d999366a746b6b7eebf2    2003ff40    RAILINT_198fb20d7a5714430b804cdff0070c61    000311cc    RAILINT_1c0857f3def7c662bd69923867ff476e    2003f358    RAILINT_1d8a0bd4448dc8ff7bf5baa2b859291d    2003ff38    RAILINT_271c6718290e2f8d30ab861e3b599124    2003ddc2    RAILINT_28125782553cb9ad9ad09407b3dc0170    2003de2b    RAILINT_2bb4c27e2d80ebdc5e6fe1c6037d391f    2003fee8    RAILINT_2c75618186ad9b36b0d0c27032e410f8    2003dddc    RAILINT_2d7872fa469c5c3d625d9a44038f1131    2003fee0    RAILINT_2d842bc4956df1568fdd528b3b124237    2003fc34    RAILINT_2e2d15946cc40e034a0dc933bdf78d8f    2003fc32    RAILINT_2f82c85b6130cbf374f8cb60e14f8d16    2003fedc    RAILINT_2fb29802233c0b2640c9261daa520efe    2003de2c    RAILINT_330373561ddae26fa64ec7a671649082    0000f8d0    RAILINT_3a55e7949d89f0fa8ebe0c8d91526f77    2003feb0    RAILINT_3cd35eba74683fc1c08cc722a0dd59ce    2003de0c    RAILINT_4166e0525f6aa1a312a24678877cc290    2003fc48    RAILINT_423e000bb30cc62379cdf6bb3943cb50    2003ff3c    RAILINT_447e5dac20fd9c5dfa98d0c6fd17af77    2003fc30    RAILINT_4b2a638f543a6cc96706a5b37f7e60ca    2003de50    RAILINT_4d1923ff80adaa65af97cb282936d4a1    2003ddeb    RAILINT_4da5323023706a3573151ec85c5cdbd1    2003e010    RAILINT_5529a7fedbc1f978956ae0b49513f0b3    2003dde0    RAILINT_57c5cd3ea481e8ad45d7d465d0e2fcb6    2003febc    RAILINT_58bd48a2143c34fa720b4012496498b2    2003ff04    RAILINT_5af293f26bd991a9d327f7f4a7555b1c    2003df78    RAILINT_5b96d239ae15c75cb47034d098feaa12    2003ddc4    RAILINT_5c4dc1c338d7d9e4640df5e9afaed37f    2003f57c    RAILINT_5c6bfe45ace488b868a3c3126769eb32    2003fee4    RAILINT_61c9d71f684b76e42282d930d521b075    2003e018    RAILINT_6404b7e2394e171eddffaf17db29dc90    2003ff88    RAILINT_694c95a636c2676b38874f440d01cfce    2003df70    RAILINT_7333477fe484b7c355c95cdae836aac4    2003de54    RAILINT_73c5c24f2b94ade5f76d37d6295cffbe    0002b860    RAILINT_7485fa2c131968d6bde40e23250a08ef    2003dde2    RAILINT_7a5001608b03efa1d6247aaed0a5a401    2003ff00    RAILINT_7ad7e5b1a0ea3682b74d10bd3632dab5    2003de28    RAILINT_7c575f2fe6a8ee0d9ff21025412895c2    0002a2a0    RAILINT_7eeef8c81b762192075d8ad97b10b0eb    2003fc3c    RAILINT_85daa417ca3172fe94c5a5a9118221ba    2003de30    RAILINT_8732a6d54f1a114a5f1d22ce8d94f1b5    2003dda4    RAILINT_8a2ace27400e3258535b169719881c67    2003feb4    RAILINT_8a2d97b6bab0d1c54595b6fc77f4f0c9    2003fed4    RAILINT_8a869172492fd52037b11475c864ae39    2003dde4    RAILINT_8cefccbe80092341b26dfcb3dfe39bbc    2003de14    RAILINT_8e005350cd5d653e4431d69ff180ab59    2003ddac    RAILINT_8e2592f2324a549fc91cbf2e772e0c64    2003e013    RAILINT_8eca1e944f2c00e1acdd775a43afb04a    2003ddc0    RAILINT_90fcbbf40f88d8fb65bc21f04ada9649    2003ddcc    RAILINT_92e546d46dc7e0449002e3ea23fbe49c    2003dff8    RAILINT_9302044fb432b0ddafbe0c0fcfc016d4    00032c00    RAILINT_9ddc548f8cc13ce471f7904212de4bec    2003ff34    RAILINT_a0781153baaf8d786a619788645f0d69    2003de2e    RAILINT_a43e5e322fbc71f9c8e0264102b1b7ea    2003de2f    RAILINT_aa3c05ebae179e186de94de736a9d6c4    2003e014    RAILINT_aaca8a673d20a2e248f9bde5f069f726    2003de40    RAILINT_ade6963bdef77a1bdead9e41e2150378    2003ddb0    RAILINT_b3aa3eff54878500efb0b1716b033da6    2003de48    RAILINT_b694277d74b2079206e91bc17c36d6af    2003ddea    RAILINT_ba833895b90cade571173e9cc1f31ff4    2003df68    RAILINT_bdd7c430db042ad89171d8e803aae8e1    2003f574    RAILINT_c3a8f2115de33aa71c5b0c3927edb0bb    000313f4    RAILINT_c60a4bdafc9dee1b27ed00cc7df68efb    2003e020    RAILINT_c70aa1477a5ccb6549d4887be5eda9d7    2003fc40    RAILINT_c943e87d8ae56dcac1081f203aa8ae88    2003feb8    RAILINT_caddcc9ad1825e2897d11e3a2086ebe9    0003117c    RAILINT_cd30dcf2f5c550a03146a8c2a59f37fc    2003ddf4    RAILINT_d21cabb76c8c86254d0fa6471a3218ff    00031370    RAILINT_d34baf40215a74cf3fc82b1a6bb40319    0002a2a4    RAILINT_d570ba6cfe2ea336b4bd1f39e040fd89    2003ddec    RAILINT_d86ae0be20b7b59ac6f07f05505134be    2003ff35    RAILINT_d8932959c24193a8cc469b484c683e17    2003de3c    RAILINT_dc77da5f32d3a568fe32e5e886251c06    2003ff36    RAILINT_dd3ea969c0a5ea83a9285b75ec51e3d1    2003df6c    RAILINT_dda73866dbe0e13aec5e401c3931aad8    2003de29    RAILINT_e2f1a7653e2a24591e2de29d015af8e5    2003ddd4    RAILINT_e3c8a0c5c09417900b2c46fb7d7ceb10    2003df6a    RAILINT_e5d0f904fed9e7727ad00d9e67f16448    2003fc44    RAILINT_e60841ee3f2c9cb0db5a37721cc632e3    000313dc    RAILINT_e807551074e2844564261027c60fcc1f    2003de20    RAILINT_e84623f1874bcfec735b3782e060618b    2003dde8    RAILINT_ea9b410278297cc8ffde721895b754df    2003e012    RAILINT_eaa79dc94bf95ef0149860bb11b220a6    2003ddd8    RAILINT_ebb466d0beee3d26d7e4c407a98ccb64    2003fed0    RAILINT_f3684411cae4d808564c574655845f60    2003ddc8    RAILINT_f551015ab2ffb05d20a85b8041988e15    2003de2a    RAILINT_f5ecd93914ec28a70c4f3a6619184fd2    2003de34    RAILINT_f6dece74f860a31866857e2ce04fd473    2003dda8    RAILINT_f936e1e818b097fd5aef91a4bb4ed243    00020e58    RAILINT_fa9a038b34dcea0e918a10c72eb32365    2003dde9    RAILINT_fc5be0212e7d8de22ea1999bc97074c9    2003de2d    RAILINT_fda8561769b33bed60d36c3630309dbb    2003de1c    RAILINT_fe39a20ab6b8c88555edffc1cf461b34    2003f578    RAIL_ActiveHandle    0x4 Data Gb rail_singleprotocol.o [40]
+000050f4	macOnlyCounters	0x8 Data Lc ember-stack-common.o [60]
 
-2003f580    RAIL_DefaultRxFifo    0x200 Data Lc rail_data.o [40]
+000050fc	destinationRequiredCounters	0x8 Data Lc ember-stack-common.o [60]
 
-2003f378    RAIL_GetTxPowerCurve::powerCurves    00031098    RAIL_TxPowerCurvesDcdc    0x20 Data Wk pa_curves_efr32.o [40]
+0000b6dc	emCapabilityBytes	0x8 Data Gb child.o [60]
 
-00031140    RAIL_curves24LpDcdc    0x10 Data Lc pa_curves_efr32.o [40]
+0000c224	emNullEui64	0x8 Data Gb zll-api.o [62]
 
-000310b8    RAIL_piecewiseDataHpDcdc    000310fc    RAIL_piecewiseDataSgDcdc    00032c39    REAL_PAGES_PER_VIRTUAL    0x1 Data Gb sim-eeprom2.o [22]
+0000f1ac	RAILINT_046ec880f80d9b9e6f8a12ec802b3587	0x28 Data Lc rail_singleprotocol.o [40]
 
-00031156    REAL_PAGE_SIZE    0x2 Data Gb sim-eeprom2.o [22]
+0000f8d0	RAILINT_3a55e7949d89f0fa8ebe0c8d91526f77	0x8 Data Lc rail_ieee802154.o [40]
 
-2003dac4    SystemCoreClock    0x4 Data Gb system_efr32mg12p.o [13]
+00013368	isItDeviceAnnouncePacket::deviceAnnouncePacketSignature	0x8 Data Lc network.o [60]
 
-2003dabc    SystemHFXOClock    0x4 Data Lc system_efr32mg12p.o [13]
+00015e08	markers	0x60 Data Lc zigbee-stack.o [60]
 
-2003dac8    SystemHfrcoFreq    0x4 Data Gb system_efr32mg12p.o [13]
+00017f00	configCodes	0x18 Data Lc command-handlers-zigbee-pro.o [50]
 
-2003dac0    SystemLFXOClock    0x4 Data Lc system_efr32mg12p.o [13]
+00017f18	configLocations	0x58 Data Lc command-handlers-zigbee-pro.o [50]
 
-2003ffbe    TEMPDRV_InitState    0x1 Data Lc tempdrv.o [12]
+0001922c	emberUpdateTcLinkKey::allZeroEui64	0x8 Data Lc aps-keys.o [60]
 
-00032c1c    TOKEN_MFG_ASH_CONFIG    0x2 Data Gb mfg-token.o [15]
+0001ad9c	messageLengths	0xc Data Gb zll-interpan.o [62]
 
-00032c16    TOKEN_MFG_BOARD_NAME    0x2 Data Gb mfg-token.o [15]
+0001bc04	stackTokenInfo	0x3c Data Lc token-cache.o [60]
 
-00032c24    TOKEN_MFG_BOOTLOAD_AES_KEY    00032c26    TOKEN_MFG_CBKE_DATA    0x2 Data Gb mfg-token.o [15]
+0001c49c	multiNetworkCounterTable	0x14 Data Lc counters.o [34]
 
-00032c1e    TOKEN_MFG_CCA_THRESHOLD    00032c22    TOKEN_MFG_CTUNE    0x2 Data Gb mfg-token.o [15]
+00020e58	RAILINT_fa9a038b34dcea0e918a10c72eb32365	0x8 Data Lc rail_ieee802154_rf_hal.o [40]
 
-00032c12    TOKEN_MFG_CUSTOM_EUI_64    00032c10    TOKEN_MFG_CUSTOM_VERSION    00032c2c    TOKEN_MFG_EUI_64    0x2 Data Gb mfg-token.o [15]
+0002304c	emGpStackMessages	0x8 Data Gb gp-data.o [37]
 
-00032c20    TOKEN_MFG_EZSP_STORAGE    0x2 Data Gb mfg-token.o [15]
+00024f90	macCommandSizes	0xc Data Lc packet-validate.o [54]
 
-00032c28    TOKEN_MFG_INSTALLATION_CODE    00032c18    TOKEN_MFG_MANUF_ID    0x2 Data Gb mfg-token.o [15]
+00024f9c	networkCommandBaseSizes	0x10 Data Lc packet-validate.o [54]
 
-00032c1a    TOKEN_MFG_PHY_CONFIG    0x2 Data Gb mfg-token.o [15]
+00024fac	apsCommandBaseSizes	0x14 Data Lc packet-validate.o [54]
 
-00032c2a    TOKEN_MFG_SECURITY_CONFIG    00032c14    TOKEN_MFG_STRING    0x2 Data Gb mfg-token.o [15]
+00024fc0	transportKeyFrameSizes	0x8 Data Lc packet-validate.o [54]
 
-00030c40    TOKEN_MULTI_NETWORK_STACK_ALTERNATE_KEY_DEFAULTS    00030c1c    TOKEN_MULTI_NETWORK_STACK_KEYS_DEFAULTS    00030c70    TOKEN_MULTI_NETWORK_STACK_NETWORK_MANAGEMENT_DEFAULTS    00030c30    TOKEN_MULTI_NETWORK_STACK_NODE_DATA_DEFAULTS    00030c84    TOKEN_MULTI_NETWORK_STACK_NONCE_COUNTER_DEFAULTS    00032c36    TOKEN_MULTI_NETWORK_STACK_PARENT_ADDITIONAL_INFO_DEFAULTS    00030c78    TOKEN_MULTI_NETWORK_STACK_PARENT_INFO_DEFAULTS    00030c54    TOKEN_MULTI_NETWORK_STACK_TRUST_CENTER_DEFAULTS    00032c43    TOKEN_MULTI_PAN_STACK_ADDITIONAL_CHILD_DATA_DEFAULTS    00030dd4    TOKEN_MULTI_PAN_STACK_CHILD_TABLE_DEFAULTS    00032c42    TOKEN_STACK_ADDITIONAL_CHILD_DATA_DEFAULTS    00030b94    TOKEN_STACK_ALTERNATE_KEY_DEFAULTS    00032c32    TOKEN_STACK_ANALYSIS_REBOOT_DEFAULTS    00030b90    TOKEN_STACK_APS_FRAME_COUNTER_DEFAULTS    00030c88    TOKEN_STACK_BINDING_TABLE_DEFAULTS    00030ba8    TOKEN_STACK_BOOT_COUNTER_DEFAULTS    00030cc0    TOKEN_STACK_CERTIFICATE_TABLE_DEFAULTS    00030c98    TOKEN_STACK_CHILD_TABLE_DEFAULTS    00030d54    TOKEN_STACK_GP_DATA_DEFAULTS    00030d9c    TOKEN_STACK_GP_INCOMING_FC_DEFAULTS    00030dd0    TOKEN_STACK_GP_INCOMING_FC_IN_SINK_DEFAULTS    00030d68    TOKEN_STACK_GP_PROXY_TABLE_DEFAULTS    00030da0    TOKEN_STACK_GP_SINK_TABLE_DEFAULTS    00030bb0    TOKEN_STACK_KEYS_DEFAULTS    00030ca4    TOKEN_STACK_KEY_TABLE_DEFAULTS    00032c41    TOKEN_STACK_MIN_RECEIVED_RSSI_DEFAULTS    00030c04    TOKEN_STACK_MULTI_PHY_NWK_INFO_DEFAULTS    00030bf0    TOKEN_STACK_NETWORK_MANAGEMENT_DEFAULTS    00030bc4    TOKEN_STACK_NODE_DATA_DEFAULTS    00030bac    TOKEN_STACK_NONCE_COUNTER_DEFAULTS    00032c30    TOKEN_STACK_NVDATA_VERSION_DEFAULTS    00032c34    TOKEN_STACK_PARENT_ADDITIONAL_INFO_DEFAULTS    00030bf8    TOKEN_STACK_PARENT_INFO_DEFAULTS    00030bd4    TOKEN_STACK_TRUST_CENTER_DEFAULTS    00030d1c    TOKEN_STACK_ZLL_DATA_DEFAULTS    00030d2c    TOKEN_STACK_ZLL_SECURITY_DEFAULTS    00031152    VIRTUAL_PAGE_SIZE    0x2 Data Gb sim-eeprom2.o [22]
+00024fc8	packetChecks	0x30 Data Lc packet-validate.o [54]
 
-0003115a    VPA_BASE    0x2 Data Gb sim-eeprom2.o [22]
+00026254	libraryInfo	0x54 Data Lc ember-library.o [60]
 
-0003115e    VPA_TOP    0x2 Data Gb sim-eeprom2.o [22]
+00027ef0	mtorFlags	0x8 Data Lc zigbee-device.o [60]
 
-00032c04    VPB_BASE    0x2 Data Gb sim-eeprom2.o [22]
+00028cd8	tokenFlagsToSizeArray	0x4 Data Lc install-code-tokens.o [39]
 
-00032c06    VPB_TOP    0x2 Data Gb sim-eeprom2.o [22]
+0002a2a0	RAILINT_7eeef8c81b762192075d8ad97b10b0eb	0x4 Data Lc rfhal_radio.o [40]
 
-00032c08    VPC_BASE    0x2 Data Gb sim-eeprom2.o [22]
+0002a2a4	RAILINT_d570ba6cfe2ea336b4bd1f39e040fd89	0x8 Data Lc rfhal_radio.o [40]
 
-00032c0a    VPC_TOP    0x2 Data Gb sim-eeprom2.o [22]
+0002b860	RAILINT_7485fa2c131968d6bde40e23250a08ef	0xc Data Lc rfhal_pa.o [40]
 
-2003e8ac    _SEGGER_RTT    0xa8 Data Gb SEGGER_RTT.o [8]
+0002e648	mfgTokenData	0x58 Data Lc command-handlers.o [34]
 
-0000200    __vector_table    0x10c Data Gb startup_efr32mg12p.o [38]
+00030940	totalTokenStorage	0x4 Data Gb sim-eeprom2.o [22]
 
-2003ed54    _acDownBuffer    0x400 Data Lc SEGGER_RTT.o [8]
+00030944	sizeCache	0x24 Data Gb sim-eeprom2.o [22]
 
-2003e954    _acUpBuffer    0x400 Data Lc SEGGER_RTT.o [8]
+00030998	zigbeeMacFilterList	0x10 Data Gb ember-configuration.o [18]
 
-2003dad7    ackReceivedPending    0x1 Data Lc lower-mac-rail-802.15.4.o [60]
+000309e4	crypto_devices	0x10 Data Lc crypto_management.o [17]
 
-2003f25a    ackRx    0x1 Data Lc ash-ncp.o [45]
+000309f4	ledArray	0x10 Data Lc led.o [16]
 
-2003f25b    ackTx    0x1 Data Lc ash-ncp.o [45]
+00030a18	halInternalClassifyReset::resetEventTable	0x24 Data Lc cstartup-common.o [15]
 
-2003ff96    activeEvent    0x1 Data Gb source-route-update.o [59]
+00030a90	nullEui	0x8 Data Lc mfg-token.o [15]
 
-2003f16c    adcConfig    0xc Data Lc adc-efr32.o [2]
+00030aac	paInit2p4	0x8 Data Lc micro.o [15]
 
-2003ffc4    adcPendingConversion    0x1 Data Lc adc-efr32.o [2]
+00030adc	tokenCreators	0x48 Data Gb token-def.o [15]
 
-2003ffc3    adcPendingRequests    0x1 Data Lc adc-efr32.o [2]
+00030b24	tokenIsCnt	0x24 Data Gb token-def.o [15]
 
-2003ffc5    adcReadingValid    0x1 Data Lc adc-efr32.o [2]
+00030b48	tokenSize	0x24 Data Gb token-def.o [15]
 
-2003f178    adcReadings    0x8 Data Lc adc-efr32.o [2]
+00030b6c	tokenArraySize	0x24 Data Gb token-def.o [15]
 
-2003ff68    addDelay    0x2 Data Lc network.o [60]
+00030b90	TOKEN_STACK_APS_FRAME_COUNTER_DEFAULTS	0x4 Data Gb token-def.o [15]
 
-2003fed1    addressCacheSize    0x1 Data Gb security-address-cache.o [50]
+00030b94	TOKEN_STACK_ALTERNATE_KEY_DEFAULTS	0x14 Data Gb token-def.o [15]
 
-2003fed2    addressCacheStartIndex    0x1 Data Lc security-address-cache.o [50]
+00030ba8	TOKEN_STACK_BOOT_COUNTER_DEFAULTS	0x4 Data Gb token-def.o [15]
 
-2003deab    addressMatchingEnabled    0x1 Data Lc lower-mac-rail-802.15.4.o [60]
+00030bac	TOKEN_STACK_NONCE_COUNTER_DEFAULTS	0x4 Data Gb token-def.o [15]
 
-2003f380    aesContext    0x24 Data Lc aes-efm32.o [60]
+00030bb0	TOKEN_STACK_KEYS_DEFAULTS	0x14 Data Gb token-def.o [15]
 
-2003ff8a    age    0x1 Data Lc broadcast.o [60]
+00030bc4	TOKEN_STACK_NODE_DATA_DEFAULTS	0x10 Data Gb token-def.o [15]
 
-2003ffd7    allowIdling    0x1 Data Lc event-control.o [60]
+00030bd4	TOKEN_STACK_TRUST_CENTER_DEFAULTS	0x1c Data Gb token-def.o [15]
 
-2003f4ca    amTouchlinkInitiator    0x1 Data Lc zll-api.o [62]
+00030bf0	TOKEN_STACK_NETWORK_MANAGEMENT_DEFAULTS	0x8 Data Gb token-def.o [15]
 
-00030e78    appProperties    0x40 Data Gb bootloader-interface.o [14]
+00030bf8	TOKEN_STACK_PARENT_INFO_DEFAULTS	0xc Data Gb token-def.o [15]
 
-00024fac    apsCommandBaseSizes    0x14 Data Lc packet-validate.o [54]
+00030c04	TOKEN_STACK_MULTI_PHY_NWK_INFO_DEFAULTS	0x18 Data Gb token-def.o [15]
 
-2003ff74    ashAckPeriod    0x2 Data Gb ash-common.o [45]
+00030c1c	TOKEN_MULTI_NETWORK_STACK_KEYS_DEFAULTS	0x14 Data Gb token-def.o [15]
 
-2003ff72    ashAckTimer    0x2 Data Gb ash-common.o [45]
+00030c30	TOKEN_MULTI_NETWORK_STACK_NODE_DATA_DEFAULTS	0x10 Data Gb token-def.o [15]
 
-2003ff76    ashDecodeInProgress    0x1 Data Gb ash-common.o [45]
+00030c40	TOKEN_MULTI_NETWORK_STACK_ALTERNATE_KEY_DEFAULTS	0x14 Data Gb token-def.o [15]
 
-2003f259    ashError    0x1 Data Lc ash-ncp.o [45]
+00030c54	TOKEN_MULTI_NETWORK_STACK_TRUST_CENTER_DEFAULTS	0x1c Data Gb token-def.o [15]
 
-2003f261    ashFlags    0x1 Data Lc ash-ncp.o [45]
+00030c70	TOKEN_MULTI_NETWORK_STACK_NETWORK_MANAGEMENT_DEFAULTS	0x8 Data Gb token-def.o [15]
 
-2003ffdb    ashNrTimer    0x1 Data Gb ash-common.o [45]
+00030c78	TOKEN_MULTI_NETWORK_STACK_PARENT_INFO_DEFAULTS	0xc Data Gb token-def.o [15]
 
-00032c3f    ashPort    0x1 Data Gb serial-interface-uart.o [18]
+00030c84	TOKEN_MULTI_NETWORK_STACK_NONCE_COUNTER_DEFAULTS	0x4 Data Gb token-def.o [15]
 
-2003f264    ashSendExec::offset    0x1 Data Lc ash-ncp.o [45]
+00030c88	TOKEN_STACK_BINDING_TABLE_DEFAULTS	0x10 Data Gb token-def.o [15]
 
-2003f270    ashSendExec::sendQueue    0x4 Data Lc ash-ncp.o [45]
+00030c98	TOKEN_STACK_CHILD_TABLE_DEFAULTS	0xc Data Gb token-def.o [15]
 
-2003f260    ashTimeouts    0x1 Data Lc ash-ncp.o [45]
+00030ca4	TOKEN_STACK_KEY_TABLE_DEFAULTS	0x1c Data Gb token-def.o [15]
 
-2003f22c    asynchronousHeapLimit    0x4 Data Lc buffer-management.o [60]
+00030cc0	TOKEN_STACK_CERTIFICATE_TABLE_DEFAULTS	0x5c Data Gb token-def.o [15]
 
-2003deac    autoAckEnabled    0x1 Data Lc lower-mac-rail-802.15.4.o [60]
+00030d1c	TOKEN_STACK_ZLL_DATA_DEFAULTS	0x10 Data Gb token-def.o [15]
 
-2003dab8    auxHfrcoFreq    0x4 Data Lc em_cmu.o [13]
+00030d2c	TOKEN_STACK_ZLL_SECURITY_DEFAULTS	0x28 Data Gb token-def.o [15]
 
-2003f46a    avgParentRssi    0x2 Data Gb association.o [60]
+00030d54	TOKEN_STACK_GP_DATA_DEFAULTS	0x14 Data Gb token-def.o [15]
 
-2003ff01    bdbTcLinkKeyExchangeAttempts    2003deba    bdbTcLinkKeyExchangeAttemptsMax    2003f486    beaconIndex    0x1 Data Lc beacon-handling.o [60]
+00030d68	TOKEN_STACK_GP_PROXY_TABLE_DEFAULTS	0x34 Data Gb token-def.o [15]
 
-2003f46c    beaconIterator    0x18 Data Gb association.o [60]
+00030d9c	TOKEN_STACK_GP_INCOMING_FC_DEFAULTS	0x4 Data Gb token-def.o [15]
 
-2003f490    beaconList    0x2 Data Lc beacon-handling.o [60]
+00030da0	TOKEN_STACK_GP_SINK_TABLE_DEFAULTS	0x30 Data Gb token-def.o [15]
 
-2003f484    beaconListCount    0x1 Data Lc beacon-handling.o [60]
+00030dd0	TOKEN_STACK_GP_INCOMING_FC_IN_SINK_DEFAULTS	0x4 Data Gb token-def.o [15]
 
-2003f498    beaconRequesterEui    0x8 Data Gb beacon-handling.o [60]
+00030dd4	TOKEN_MULTI_PAN_STACK_CHILD_TABLE_DEFAULTS	0xc Data Gb token-def.o [15]
 
-2003deaf    bindingModificationPolicyDecision    2003fcae    blackListedIdByteArray    0x2 Data Gb ember-configuration.o [18]
+00030de0	tokenDefaults	0x90 Data Gb token-def.o [15]
 
-2003e420    blacklistedIdsArray    0x4 Data Gb ember-configuration.o [18]
+00030e78	appProperties	0x40 Data Gb bootloader-interface.o [14]
 
-2003ffca    broadcastNetworkKeySequenceNumber    2003fc01    broadcast_pan_when_scanning    2003debf    brokenRouteErrorCode    0x1 Data Lc network.o [60]
+00030eb8	flashWsTable	0x28 Data Lc em_cmu.o [13]
 
-2003f218    bufferTracker    0x2 Data Lc buffer-management.o [60]
+00030ee0	resetCauseMasks	0x48 Data Lc em_rmu.o [13]
 
-2003ff8e    cacheBuffer    0x2 Data Lc token-cache.o [60]
+00030f28	m2p	0x10 Data Gb dmadrv.o [12]
 
-2003dec9    cachingNetworkIndex    0x1 Data Lc token-cache.o [60]
+00030f38	p2m	0x10 Data Gb dmadrv.o [12]
 
-2003f168    calcMic    0x4 Data Lc ccm-star.o [6]
+00030f94	powers10	0x24 Data Lc ember-printf.o [11]
 
-2003e834    calibrationEMU    0x4 Data Lc tempdrv.o [12]
+00030fe8	pChanAportPosSelMap	0x8 Data Gb adc-efr32.o [2]
 
-2003e838    calibrationTEMP    0x4 Data Lc tempdrv.o [12]
+00030ff0	nChanAportNegSelMap	0x8 Data Gb adc-efr32.o [2]
 
-2003ff56    callbackOverflow    0x1 Data Gb stack-callbacks.o [34]
+00031060	emAppEvents	0x38 Data Gb ncp-events.o [1]
 
-2003ff58    callbackQueue    0x2 Data Gb stack-callbacks.o [34]
+00031098	RAIL_TxPowerCurvesDcdc	0x20 Data Wk pa_curves_efr32.o [40]
 
-2003ff60    cbkeData283k1Buffer    0x2 Data Gb command-handlers-cbke.o [47]
+000310b8	RAIL_piecewiseDataHpDcdc	0x44 Data Lc pa_curves_efr32.o [40]
 
-2003dea9    cc_disabled    0x1 Data Lc sl_sleeptimer_hal_rtcc.o [12]
+000310fc	RAIL_piecewiseDataSgDcdc	0x44 Data Lc pa_curves_efr32.o [40]
 
-2003f3f4    cgpCmd    0x1 Data Gb gp-data.o [37]
+00031140	RAIL_curves24LpDcdc	0x10 Data Lc pa_curves_efr32.o [40]
 
-2003f400    cgpOut    0x2 Data Lc gp-data.o [37]
+00031150	emSecurityCoreLibraryStatus	0x1 Data Gb trust-center-util.o [60]
 
-2003e604    chTable    0x80 Data Lc dmadrv.o [12]
+00031152	VIRTUAL_PAGE_SIZE	0x2 Data Gb sim-eeprom2.o [22]
 
-2003fc74    changeToChannel    0x1 Data Lc zdo-channel.o [60]
+00031154	emBindingTableLibraryStatus	0x1 Data Gb binding-table.o [24]
 
-2003f429    channelCache    0x1 Data Lc zigbee-scan.o [60]
+00031156	REAL_PAGE_SIZE	0x2 Data Gb sim-eeprom2.o [22]
 
-2003df48    childIsExpectingMessageBitField    2003df28    childPolledBitField    0x20 Data Lc indirect-queue.o [60]
+00031158	emZigbeeProLibraryStatus	0x1 Data Gb route-table.o [60]
 
-2003f7d0    child_table_pointer_stack    2003de74    clearNonZllNetworkBit    0x1 Data Lc zll-api.o [62]
+0003115a	VPA_BASE	0x2 Data Gb sim-eeprom2.o [22]
 
-2003e5bc    clock_wakeup_timer_handle    2003d948    comBufferQueueRxUsart0    0x80 Data Lc com.o [20]
+0003115c	emZllLibraryStatus	0x1 Data Gb zll-api.o [62]
 
-2003d9c8    comBufferQueueTxUsart0    0x80 Data Lc com.o [20]
+0003115e	VPA_TOP	0x2 Data Gb sim-eeprom2.o [22]
 
-2003e2a0    comFifoQueueRxUsart0    0x88 Data Lc com.o [20]
+00031160	emberVersion	0x8 Data Gb ember-version.o [60]
 
-2003e1d0    comFifoQueueRxVcp    0x48 Data Lc com.o [20]
+00031168	ieee802154_2p4_coherent_timing	0x8 Data Gb rail_ieee802154_rf_hal.o [40]
 
-2003e328    comFifoQueueTxUsart0    0x88 Data Lc com.o [20]
+00031170	emZllStackMessages	0xc Data Gb zll-interpan.o [62]
 
-2003e218    comFifoQueueTxVcp    0x88 Data Lc com.o [20]
+0003117c	RAILINT_cd30dcf2f5c550a03146a8c2a59f37fc	0x1c Data Lc ieee802154_efr32xg12_configurator_out.o [40]
 
-2003e3b0    comhandledata    0x38 Data Lc com.o [20]
+00031198	RAILINT_10b7a154e356e09da3dd27e286e37127	0x34 Data Lc ieee802154_efr32xg12_configurator_out.o [40]
 
-2003f4cc    commissioningJoinType    0x1 Data Lc zll-api.o [62]
+000311cc	RAILINT_1c0857f3def7c662bd69923867ff476e	0x1a4 Data Gb ieee802154_efr32xg12_configurator_out.o [40]
 
-2003f4d8    commissioningNodeId    0x2 Data Lc zll-api.o [62]
+00031370	RAILINT_d34baf40215a74cf3fc82b1a6bb40319	0x6c Data Gb ieee802154_efr32xg12_configurator_out.o [40]
 
-2003f4b8    commissioningUnencryptedNetworkKey    2003f508    commissioningZllNetwork    2003ff98    concentratorType    0x2 Data Lc source-route-update.o [59]
+000313dc	RAILINT_e807551074e2844564261027c60fcc1f	0x18 Data Gb ieee802154_efr32xg12_configurator_out.o [40]
 
-00017f00    configCodes    0x18 Data Lc command-handlers-zigbee-pro.o [50]
+000313f4	RAILINT_c60a4bdafc9dee1b27ed00cc7df68efb	0x14 Data Gb ieee802154_efr32xg12_configurator_out.o [40]
 
-00017f18    configLocations    0x58 Data Lc command-handlers-zigbee-pro.o [50]
+00031408	RAILINT_0cdb976df793f6799e20dfa42e2be4c6	0x17f8 Data Gb generic_efr32xg12_seq.o [40]
 
-2003dc78    configMaxValues    0x8 Data Lc command-handlers-zigbee-pro.o [50]
+00032c00	RAILINT_9ddc548f8cc13ce471f7904212de4bec	0x4 Data Gb generic_efr32xg12_seq.o [40]
 
-2003f54c    countSuperRetriesForMacDataPoll    000309e4    crypto_devices    0x10 Data Lc crypto_management.o [17]
+00032c04	VPB_BASE	0x2 Data Gb sim-eeprom2.o [22]
 
-2003ded0    csmaParams    0xc Data Lc lower-mac-rail-802.15.4.o [60]
+00032c06	VPB_TOP	0x2 Data Gb sim-eeprom2.o [22]
 
-2003cf80    cstackMemory    0x960 Data Gb cstartup-common.o [15]
+00032c08	VPC_BASE	0x2 Data Gb sim-eeprom2.o [22]
 
-2003f204    currPage    0x4 Data Gb sim-eeprom2-internal.o [58]
+00032c0a	VPC_TOP	0x2 Data Gb sim-eeprom2.o [22]
 
-2003dad4    currentChannel    0x1 Data Lc lower-mac-rail-802.15.4.o [60]
+00032c0c	ID_COUNT	0x2 Data Gb sim-eeprom2.o [22]
 
-2003def0    currentEventConfig    0x8 Data Lc lower-mac-rail-802.15.4.o [60]
+00032c0e	PTR_CACHE_SIZE	0x2 Data Gb sim-eeprom2.o [22]
 
-2003deee    currentIncomingFrame    0x2 Data Lc lower-mac-rail-802.15.4.o [60]
+00032c10	TOKEN_MFG_CUSTOM_VERSION	0x2 Data Gb mfg-token.o [15]
 
-2003fcac    currentJitFlag    0x2 Data Lc jit.o [60]
+00032c12	TOKEN_MFG_CUSTOM_EUI_64	0x2 Data Gb mfg-token.o [15]
 
-2003f78c    currentNetworkStack    0xc Data Lc ember-multi-network.o [43]
+00032c14	TOKEN_MFG_STRING	0x2 Data Gb mfg-token.o [15]
 
-2003dec1    currentNetworkStackIndex    2003defc    currentOutgoingPacket    0x4 Data Lc lower-mac-rail-802.15.4.o [60]
+00032c16	TOKEN_MFG_BOARD_NAME	0x2 Data Gb mfg-token.o [15]
 
-2003dad5    currentRadioChannel    0x1 Data Lc lower-mac-rail-802.15.4.o [60]
+00032c18	TOKEN_MFG_MANUF_ID	0x2 Data Gb mfg-token.o [15]
 
-2003dc74    currentUser    0x4 Data Lc buffer-management.o [60]
+00032c1a	TOKEN_MFG_PHY_CONFIG	0x2 Data Gb mfg-token.o [15]
 
-2003dec3    current_child_table_pointer_stack_index    2003ffad    current_em    0x1 Data Lc sl_power_manager.o [15]
+00032c1c	TOKEN_MFG_ASH_CONFIG	0x2 Data Gb mfg-token.o [15]
 
-2003dede    current_force_tx_after_failed_cca_attempts    2003f79c    currentlyRunningEventControl    2003fcb0    customMacFilterTableSize    2003ff50    dcdcEm01LoadCurrent_mA    0x2 Data Lc em_emu.o [13]
+00032c1e	TOKEN_MFG_CCA_THRESHOLD	0x2 Data Gb mfg-token.o [15]
 
-2003ff4e    dcdcMaxCurrent_mA    0x2 Data Lc em_emu.o [13]
+00032c20	TOKEN_MFG_EZSP_STORAGE	0x2 Data Gb mfg-token.o [15]
 
-2003ff52    dcdcReverseCurrentControl    2003ffc2    debugChannelState    0x1 Data Lc debug-jtag-efr32.o [9]
+00032c22	TOKEN_MFG_CTUNE	0x2 Data Gb mfg-token.o [15]
 
-2003f1ec    debugTraceOn    0x1 Data Lc debug-extended.o [32]
+00032c24	TOKEN_MFG_BOOTLOAD_AES_KEY	0x2 Data Gb mfg-token.o [15]
 
-2003ff79    decodeByte1    0x1 Data Lc ash-common.o [45]
+00032c26	TOKEN_MFG_CBKE_DATA	0x2 Data Gb mfg-token.o [15]
 
-2003ff7a    decodeByte2    0x1 Data Lc ash-common.o [45]
+00032c28	TOKEN_MFG_INSTALLATION_CODE	0x2 Data Gb mfg-token.o [15]
 
-2003ff7c    decodeCrc    0x2 Data Lc ash-common.o [45]
+00032c2a	TOKEN_MFG_SECURITY_CONFIG	0x2 Data Gb mfg-token.o [15]
 
-2003ff78    decodeFlip    0x1 Data Lc ash-common.o [45]
+00032c2c	TOKEN_MFG_EUI_64	0x2 Data Gb mfg-token.o [15]
 
-2003ff77    decodeLen    0x1 Data Lc ash-common.o [45]
+00032c30	TOKEN_STACK_NVDATA_VERSION_DEFAULTS	0x2 Data Gb token-def.o [15]
 
-2003dedf    default_force_tx_after_failed_cca_attempts    2003fc8c    delayCount    0x1 Data Lc retry.o [60]
+00032c32	TOKEN_STACK_ANALYSIS_REBOOT_DEFAULTS	0x2 Data Gb token-def.o [15]
 
-2003ff48    delayTestDelayLength    0x2 Data Lc serial-interface-uart.o [18]
+00032c34	TOKEN_STACK_PARENT_ADDITIONAL_INFO_DEFAULTS	0x2 Data Gb token-def.o [15]
 
-2003ff46    delayTestStartTime    0x2 Data Lc serial-interface-uart.o [18]
+00032c36	TOKEN_MULTI_NETWORK_STACK_PARENT_ADDITIONAL_INFO_DEFAULTS	0x2 Data Gb token-def.o [15]
 
-2003e83c    delayedTxTimer    0x18 Data Gb uartdrv.o [12]
+00032c38	emEndDeviceBindLibraryStatus	0x1 Data Gb end-device-bind.o [36]
 
-2003ff94    deliveryFailureCount    0x1 Data Lc source-route-update.o [59]
+00032c39	REAL_PAGES_PER_VIRTUAL	0x1 Data Gb sim-eeprom2.o [22]
 
-2003ff91    deliveryFailureThreshold    000050fc    destinationRequiredCounters    2003e684    dmaXfer    0x100 Data Lc dmadrv.o [12]
+00032c3a	emberNcpBindingTableTokenSize	0x1 Data Gb em260-common.o [18]
 
-2003dead    edCcaThreshold    0x1 Data Lc lower-mac-rail-802.15.4.o [60]
+00032c3b	emberNcpChildTableTokenSize	0x1 Data Gb em260-common.o [18]
 
-2003e5f8    em4WakeupCause    0x4 Data Lc sleep-efm32.o [15]
+00032c3c	emberNcpKeyTableTokenSize	0x1 Data Gb em260-common.o [18]
 
-2003ffd8    emActiveTaskCount    0x1 Data Lc event-control.o [60]
+00032c3d	emberNcpNeighborTableTokenSize	0x1 Data Gb em260-common.o [18]
 
-2003daa0    emAddressTable    0x4 Data Gb ember-configuration.o [18]
+00032c3e	emTaskCount	0x1 Data Gb ember-configuration.o [18]
 
-2003de99    emAddressTableSize    0x1 Data Gb ember-configuration.o [18]
+00032c3f	ashPort	0x1 Data Gb serial-interface-uart.o [18]
 
-2003ff70    emAfPluginEzspCurrentCommandFrameId    2003ff6e    emAfPluginEzspCurrentCommandNetworkIndex    2003dd94    emAfPluginEzspHostTimers    2003dec5    emAfTaskId    0x1 Data Gb main.o [34]
+00032c41	TOKEN_STACK_MIN_RECEIVED_RSSI_DEFAULTS	0x1 Data Gb token-def.o [15]
 
-2003fcf8    emAgingEbrListEvent    0x8 Data Gb enhanced-beacon-request-stub.o [61]
+00032c42	TOKEN_STACK_ADDITIONAL_CHILD_DATA_DEFAULTS	0x1 Data Gb token-def.o [15]
 
-2003de8b    emAllowRelay    0x1 Data Gb ember-configuration.o [18]
+00032c43	TOKEN_MULTI_PAN_STACK_ADDITIONAL_CHILD_DATA_DEFAULTS	0x1 Data Gb token-def.o [15]
 
-2003e55c    emAllowTcRejoinsUsingWellKnownKeyEventControls    2003de70    emAllowTcRejoinsUsingWellKnownKeyTimeoutSec    00031060    emAppEvents    0x38 Data Gb ncp-events.o [1]
+00032c44	emSecurityLinkKeysLibraryStatus	0x1 Data Gb aps-keys-full.o [56]
 
-2003ffa5    emAppZdoConfigurationFlags    2003f781    emApplicationNetworkIndex    2003daa4    emApsUnicastMessageData    200000a0    emAvailableMemory    0x1bc8 Data Gb ember-configuration.o [18]
+00032c45	emCbkeLibraryStatus	0x1 Data Gb cbke-crypto-engine-163k1-stub.o [25]
 
-2003dcb4    emBeaconClassificationParams    2003e4cc    emBeaconEventControls    0x10 Data Gb ember-configuration.o [18]
+00032c46	emCbke283k1LibraryStatus	0x1 Data Gb cbke-crypto-engine-283k1-stub.o [26]
 
-2003deb8    emBeaconJitterDuration    0x1 Data Gb beacon-handling.o [60]
+00032c47	emCbkeDsaVerifyLibraryStatus	0x1 Data Gb cbke-crypto-engine-dsa-verify-stub.o [29]
 
-2003da98    emBindingFlags    0x4 Data Gb ember-configuration.o [18]
+00032c48	emCbke283k1DsaVerifyLibraryStatus	0x1 Data Gb cbke-crypto-engine-dsa-verify-283k1-stub.o [28]
 
-2003da94    emBindingRemoteNode    0x4 Data Gb ember-configuration.o [18]
+00032c49	emMultiNetworkLibraryStatus	0x1 Data Gb ember-multi-network.o [43]
 
-00031154    emBindingTableLibraryStatus    2003dec4    emBootloaderMode    0x1 Data Gb main.o [34]
+00032c4a	emNcpLibraryStatus	0x1 Data Gb main.o [34]
 
-2003dec8    emBroadcastMinAcksNeeded    2003da6c    emBroadcastTableData    0x4 Data Gb ember-configuration.o [18]
+00032c4b	emMultiPanLibraryStatus	0x1 Data Gb multi-pan.o [44]
 
-2003de8f    emBroadcastTableSize    0x1 Data Gb ember-configuration.o [18]
+00032c4c	emCbkeCoreLibraryStatus	0x1 Data Gb cbke-crypto-engine-stub.o [30]
 
-2003fcb4    emBufferToHostTagMap    0x4 Data Gb memory-allocation.o [34]
+00032c4d	emCbkeDsaLibraryStatus	0x1 Data Gb cbke-crypto-engine-dsa-sign-stub.o [27]
 
-2003fcaa    emCachedSleepyBroadcastHeader    0000b6dc    emCapabilityBytes    0x8 Data Gb child.o [60]
+00032c4e	emEnhancedBeaconRequestLibraryStatus	0x1 Data Gb enhanced-beacon-request-stub.o [61]
 
-00032c48    emCbke283k1DsaVerifyLibraryStatus    00032c46    emCbke283k1LibraryStatus    00032c4c    emCbkeCoreLibraryStatus    00032c4d    emCbkeDsaLibraryStatus    0x1 Data Gb cbke-crypto-engine-dsa-sign-stub.o [27]
+00032c4f	emInstallCodeLibraryStatus	0x1 Data Gb install-code-tokens.o [39]
 
-00032c47    emCbkeDsaVerifyLibraryStatus    00032c45    emCbkeLibraryStatus    0x1 Data Gb cbke-crypto-engine-163k1-stub.o [25]
+00032c50	emPacketValidateLibrary	0x1 Data Gb packet-validate.o [54]
 
-2003ffa4    emCertificateTableSize    0x1 Data Gb ember-configuration.o [18]
+000f7000	simulatedEepromStorage	0x9000 Data Gb sim-eeprom2.o [22]
 
-2003fc7c    emChannelChangeEvent    0x8 Data Gb zdo-channel.o [60]
+20000000	halResetInfo	0x9c Data Gb cstartup-common.o [15]
 
-2003da58    emChildLqiData    0x4 Data Gb ember-configuration.o [18]
+200000a0	emAvailableMemory	0x1bc8 Data Gb ember-configuration.o [18]
 
-2003da54    emChildPower    0x4 Data Gb ember-configuration.o [18]
+20001c80	guardRegionPlaceHolder	0x20 Data Gb cstartup-common.o [15]
 
-2003da4c    emChildStatusData    0x4 Data Gb ember-configuration.o [18]
+2003cf80	cstackMemory	0x960 Data Gb cstartup-common.o [15]
 
-2003da48    emChildTableData    0x4 Data Gb ember-configuration.o [18]
+2003d944	simulatedEepromAddress	0x4 Data Gb sim-eeprom2.o [22]
 
-2003da50    emChildTimersData    0x4 Data Gb ember-configuration.o [18]
+2003d948	comBufferQueueRxUsart0	0x80 Data Lc com.o [20]
 
-2003dc58    emCostDivisions    0x4 Data Lc lower-mac-rail-802.15.4.o [60]
+2003d9c8	comBufferQueueTxUsart0	0x80 Data Lc com.o [20]
 
-2003fc50    emCurrentApsStruct    0x4 Data Gb zigbee-dispatch.o [60]
+2003da48	emChildTableData	0x4 Data Gb ember-configuration.o [18]
 
-2003ffde    emCurrentBindingIndex    0x1 Data Gb zigbee-dispatch.o [60]
+2003da4c	emChildStatusData	0x4 Data Gb ember-configuration.o [18]
 
-2003f55e    emCurrentChannel    0x1 Data Gb network.o [60]
+2003da50	emChildTimersData	0x4 Data Gb ember-configuration.o [18]
 
-2003f55c    emCurrentLqi    0x1 Data Gb network.o [60]
+2003da54	emChildPower	0x4 Data Gb ember-configuration.o [18]
 
-2003f560    emCurrentMacTimestamp    0x4 Data Gb network.o [60]
+2003da58	emChildLqiData	0x4 Data Gb ember-configuration.o [18]
 
-2003fc4c    emCurrentMessageStatus    0x1 Data Gb zigbee-dispatch.o [60]
+2003da5c	emRouteData	0x4 Data Gb ember-configuration.o [18]
 
-2003f780    emCurrentNetworkIndex    0x1 Data Gb ember-multi-network.o [43]
+2003da60	emRouteRecordTableData	0x4 Data Gb ember-configuration.o [18]
 
-2003f55d    emCurrentRssi    0x1 Data Gb network.o [60]
+2003da64	emDiscoveryTable	0x4 Data Gb ember-configuration.o [18]
 
-2003fc4e    emCurrentSender    0x2 Data Gb zigbee-dispatch.o [60]
+2003da68	emberMulticastTable	0x4 Data Gb ember-configuration.o [18]
 
-2003fc54    emCurrentSenderEui64    0x4 Data Gb zigbee-dispatch.o [60]
+2003da6c	emBroadcastTableData	0x4 Data Gb ember-configuration.o [18]
 
-2003ffd1    emCurrentZdoRequestStatus    2003fcbc    emCustomMacFilterMatchList    2003de9f    emDefaultSecurityLevel    0x1 Data Gb ember-configuration.o [18]
+2003da70	emNetworkDescriptor	0x4 Data Gb ember-configuration.o [18]
 
-2003ffa6    emDefaultStackProfile    0x1 Data Gb ember-configuration.o [18]
+2003da74	emPanInfoData	0x4 Data Gb ember-configuration.o [18]
 
-2003ff5a    emDescriptorCapability    0x1 Data Gb zigbee-device.o [60]
+2003da78	emNeighborData	0x4 Data Gb ember-configuration.o [18]
 
-2003da64    emDiscoveryTable    0x4 Data Gb ember-configuration.o [18]
+2003da7c	emFrameCountersTable	0x4 Data Gb ember-configuration.o [18]
 
-2003de8d    emDiscoveryTableSize    0x1 Data Gb ember-configuration.o [18]
+2003da80	emRetryQueue	0x4 Data Gb ember-configuration.o [18]
 
-00032c38    emEndDeviceBindLibraryStatus    2003dea4    emEndDeviceBindTimeout    0x1 Data Gb ember-configuration.o [18]
+2003da84	emStoreAndForwardQueue	0x4 Data Gb ember-configuration.o [18]
 
-2003ffe0    emEndDeviceChildCount    0x1 Data Gb child.o [60]
+2003da88	emGpProxyTable	0x4 Data Gb ember-configuration.o [18]
 
-2003da9c    emEndDeviceTimeoutData    0x4 Data Gb ember-configuration.o [18]
+2003da8c	emGpSinkTable	0x4 Data Gb ember-configuration.o [18]
 
-2003f444    emEnergyScanResultCallback    00032c4e    emEnhancedBeaconRequestLibraryStatus    2003deb6    emEraseChildTableOnJoin    2003fd20    emForcedAddressAssignment    2003ffa2    emFragmentDelayMs    0x1 Data Gb ember-configuration.o [18]
+2003da90	emSourceRouteTable	0x4 Data Gb ember-configuration.o [18]
 
-2003da7c    emFrameCountersTable    0x4 Data Gb ember-configuration.o [18]
+2003da94	emBindingRemoteNode	0x4 Data Gb ember-configuration.o [18]
 
-2003f414    emGpDuplicateEvent    0x8 Data Gb gp-data.o [37]
+2003da98	emBindingFlags	0x4 Data Gb ember-configuration.o [18]
 
-2003ffa0    emGpIncomingFCInSinkTokenTableSize    2003de96    emGpIncomingFCInSinkTokenTimeout    2003ff03    emGpIncomingFCTokenTableSize    2003de94    emGpIncomingFCTokenTimeout    2003fcc0    emGpMacFilterMatchList    0x4 Data Gb zigbee-mac-header.o [60]
+2003da9c	emEndDeviceTimeoutData	0x4 Data Gb ember-configuration.o [18]
 
-2003da88    emGpProxyTable    0x4 Data Gb ember-configuration.o [18]
+2003daa0	emAddressTable	0x4 Data Gb ember-configuration.o [18]
 
-2003de95    emGpProxyTableSize    0x1 Data Gb ember-configuration.o [18]
+2003daa4	emApsUnicastMessageData	0x4 Data Gb ember-configuration.o [18]
 
-2003da8c    emGpSinkTable    0x4 Data Gb ember-configuration.o [18]
+2003daa8	emIncomingApsFrameCounters	0x4 Data Gb ember-configuration.o [18]
 
-2003ffa1    emGpSinkTableSize    0x1 Data Gb ember-configuration.o [18]
+2003daac	halInternalPa2p4GHzInit	0x4 Data Gb micro.o [15]
 
-0002304c    emGpStackMessages    0x8 Data Gb gp-data.o [37]
+2003dab0	events_info	0x8 Data Lc sleep-efm32.o [15]
 
-2003e53c    emGpTxEventControls    0x10 Data Gb ember-configuration.o [18]
+2003dab8	auxHfrcoFreq	0x4 Data Lc em_cmu.o [13]
 
-2003f3dc    emGpTxQueue    0x18 Data Gb gp-data.o [37]
+2003dabc	SystemHFXOClock	0x4 Data Lc system_efr32mg12p.o [13]
 
-2003f3f8    emGpWriteIncomingFCEvent    2003f534    emGpWriteIncomingFCInSinkEvent    2003f21c    emHeapBase    0x4 Data Lc buffer-management.o [60]
+2003dac0	SystemLFXOClock	0x4 Data Lc system_efr32mg12p.o [13]
 
-2003f220    emHeapLimit    0x4 Data Gb buffer-management.o [60]
+2003dac4	SystemCoreClock	0x4 Data Gb system_efr32mg12p.o [13]
 
-2003daa8    emIncomingApsFrameCounters    00032c4f    emInstallCodeLibraryStatus    2003f7a8    emLocalEui64    0x8 Data Gb eui64.o [60]
+2003dac8	SystemHfrcoFreq	0x4 Data Gb system_efr32mg12p.o [13]
 
-2003dee4    emLowerMacEvent    0x8 Data Gb lower-mac-rail-802.15.4.o [60]
+2003dacc	rtt_buffer_index	0x4 Data Lc debug-jtag-efr32.o [9]
 
-2003dedd    emLowerMacState    0x1 Data Gb lower-mac-rail-802.15.4.o [60]
+2003dad0	radioSchedulerPriorityTable	0x4 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003fcf0    emLpdEvent    0x8 Data Gb child-handling.o [60]
+2003dad4	currentChannel	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003f550    emMacDataPollSuperRetriesEvent    2003deaa    emMacMaxRetries    0x1 Data Gb lower-mac-rail-802.15.4.o [60]
+2003dad5	currentRadioChannel	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003dee1    emMacOutgoingSequenceNumber    2003f402    emMacPermitAssociation    0x2 Data Gb ember-configuration.o [18]
+2003dad6	txCompleteStatusPending	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003ffd3    emMacRetries    0x1 Data Gb network.o [60]
+2003dad7	ackReceivedPending	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003f440    emMacScanType    0x1 Data Gb zigbee-scan.o [60]
+2003dad8	txSchedulerInfo	0xc Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003ff9e    emMacToNetworkQueue    0x2 Data Gb mac-dispatch.o [60]
+2003dae4	railCfg	0x174 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003f214    emMallocFreeList    0x2 Data Gb buffer-management.o [60]
+2003dc58	emCostDivisions	0x4 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003de66    emManufacturerCode    0x2 Data Gb zigbee-device.o [60]
+2003dc5c	vpaStruct	0x8 Data Gb sim-eeprom2-internal.o [58]
 
-2003de9a    emMaxApsUnicastMessages    2003dea0    emMaxEndDeviceChildren    0x1 Data Gb ember-configuration.o [18]
+2003dc64	vpbStruct	0x8 Data Gb sim-eeprom2-internal.o [58]
 
-2003dea1    emMaxHops    0x1 Data Gb ember-configuration.o [18]
+2003dc6c	vpcStruct	0x8 Data Gb sim-eeprom2-internal.o [58]
 
-2003de6a    emMaximumIncomingTransferSize    2003de6c    emMaximumOutgoingTransferSize    2003ffc8    emMfglibMode    0x1 Data Gb lower-mac-rail-802.15.4.o [60]
+2003dc74	currentUser	0x4 Data Lc buffer-management.o [60]
 
-2003f1e8    emMfglibRxCallback    0x4 Data Gb lower-mac-rail-802.15.4.o [60]
+2003dc78	configMaxValues	0x8 Data Lc command-handlers-zigbee-pro.o [50]
 
-2003deca    emMtorrFlowControl    0x1 Data Gb route-discovery.o [60]
+2003dc80	pollTimers	0x30 Data Lc polling.o [50]
 
-00032c49    emMultiNetworkLibraryStatus    2003e424    emMultiPanEventData    0xa8 Data Gb ember-configuration.o [18]
+2003dcb0	networkKeyTimeoutMs	0x4 Data Lc association.o [60]
 
-2003ffd9    emMultiPanEventTask    0x1 Data Gb multi-pan-common.o [44]
+2003dcb4	emBeaconClassificationParams	0x4 Data Gb beacon-handling.o [60]
 
-00032c4b    emMultiPanLibraryStatus    00032c4a    emNcpLibraryStatus    0x1 Data Gb main.o [34]
+2003dcb8	radioTransmitConfig	0x8 Data Gb zigbee-stack.o [60]
 
-2003da78    emNeighborData    0x4 Data Gb ember-configuration.o [18]
+2003dcc0	stackEvents	0xc8 Data Gb zigbee-stack.o [60]
 
-2003f4b0    emNeighborEvent    0x8 Data Gb neighbor.o [60]
+2003dd88	sendFromSource	0x2 Data Lc application-support.o [60]
 
-2003e4fc    emNeighborExchangeEventControls    2003da70    emNetworkDescriptor    0x4 Data Gb ember-configuration.o [18]
+2003dd8c	sendFromEui	0x8 Data Lc application-support.o [60]
 
-2003f434    emNetworkFoundCallback    0x4 Data Gb zigbee-scan.o [60]
+2003dd94	emAfPluginEzspHostTimers	0x10 Data Gb timers.o [34]
 
-2003e4ec    emNetworkManagementEventControls    2003fce4    emNetworkTimeoutRequestEvent    2003ff66    emNetworkToApplicationQueue    2003ff8b    emNewBroadcastEntryThreshold    0000c224    emNullEui64    0x8 Data Gb zll-api.o [62]
+2003dda4	RAILINT_8a2ace27400e3258535b169719881c67	0x4 Data Lc rail_rf.o [40]
 
-2003de88    emNumMultiPanForks    0x1 Data Gb ember-configuration.o [18]
+2003dda8	RAILINT_f936e1e818b097fd5aef91a4bb4ed243	0x4 Data Lc rail_rf.o [40]
 
-2003de89    emPacketBufferCount    0x1 Data Gb ember-configuration.o [18]
+2003ddac	RAILINT_8e2592f2324a549fc91cbf2e772e0c64	0x4 Data Lc rail_rf.o [40]
 
-00032c50    emPacketValidateLibrary    2003dea5    emPanIdConflictReportThreshold    2003da74    emPanInfoData    0x4 Data Gb ember-configuration.o [18]
+2003ddb0	RAILINT_b3aa3eff54878500efb0b1716b033da6	0x4 Data Lc rail_rf.o [40]
 
-2003f492    emPermitJoining    0x2 Data Gb ember-configuration.o [18]
+2003ddb4	fixedOffset	0x4 Data Lc mac-flat-header.o [60]
 
-2003e4dc    emPermitJoiningEventControls    2003def8    emPhyRailHandle    0x4 Data Gb lower-mac-rail-802.15.4.o [60]
+2003ddb8	sl_go_to_next_channel_decision	0x1 Data Lc scan.o [60]
 
-2003f784    emPollDelayingEvent    0x8 Data Gb ember-multi-network.o [43]
+2003ddbc	sl_mac_scan_request_callback	0x4 Data Gb scan.o [60]
 
-2003de68    emPowerDescriptor    0x2 Data Gb zigbee-device.o [60]
+2003ddc0	RAILINT_90fcbbf40f88d8fb65bc21f04ada9649	0x1 Data Lc rail_rf_hal.o [40]
 
-2003deae    emReencryptRetries    0x1 Data Gb aps-retry.o [60]
+2003ddc2	RAILINT_28125782553cb9ad9ad09407b3dc0170	0x2 Data Lc rail_rf_hal.o [40]
 
-2003e50c    emRequestKeyEventControls    2003ffa7    emRequestKeyTimeout    0x1 Data Gb ember-configuration.o [18]
+2003ddc4	RAILINT_5c4dc1c338d7d9e4640df5e9afaed37f	0x2 Data Lc rail_rf_hal.o [40]
 
-2003ffcc    emRequestLinkKeyUpdate    0x1 Data Gb aps-keys-transient.o [56]
+2003ddc8	RAILINT_f551015ab2ffb05d20a85b8041988e15	0x4 Data Lc rail_rf_hal.o [40]
 
-2003fc90    emRetryDelayEvent    0x8 Data Gb retry.o [60]
+2003ddcc	RAILINT_92e546d46dc7e0449002e3ea23fbe49c	0x4 Data Lc rail_rf_hal.o [40]
 
-2003da80    emRetryQueue    0x4 Data Gb ember-configuration.o [18]
+2003ddd0	RAILINT_178c5690dd72d999366a746b6b7eebf2	0x4 Data Lc rail_rf_hal.o [40]
 
-2003de92    emRetryQueueSize    0x1 Data Gb ember-configuration.o [18]
+2003ddd4	RAILINT_e3c8a0c5c09417900b2c46fb7d7ceb10	0x4 Data Lc rail_rf_hal.o [40]
 
-2003da5c    emRouteData    0x4 Data Gb ember-configuration.o [18]
+2003ddd8	RAILINT_ebb466d0beee3d26d7e4c407a98ccb64	0x4 Data Lc rail_rf_hal.o [40]
 
-2003da60    emRouteRecordTableData    0x4 Data Gb ember-configuration.o [18]
+2003dddc	RAILINT_2d7872fa469c5c3d625d9a44038f1131	0x4 Data Lc rail_rf_hal.o [40]
 
-2003de58    emRouteRecordTableTotalSize    2003de8c    emRouteTableSize    0x1 Data Gb ember-configuration.o [18]
+2003dde0	RAILINT_57c5cd3ea481e8ad45d7d465d0e2fcb6	0x1 Data Lc rail_rf_hal.o [40]
 
-2003de91    emRouterNeighborTableSize    2003f438    emScanCompleteCallback    0x4 Data Gb zigbee-scan.o [60]
+2003dde2	RAILINT_7a5001608b03efa1d6247aaed0a5a401	0x2 Data Lc rail_rf_hal.o [40]
 
-00031150    emSecurityCoreLibraryStatus    00032c44    emSecurityLinkKeysLibraryStatus    2003ffa8    emSendMulticastsToSleepyAddress    2003e51c    emSendParentAnnounceEventControls    2003fca0    emSleepyBroadcastEvent    0x8 Data Gb jit.o [60]
+2003dde4	RAILINT_8cefccbe80092341b26dfcb3dfe39bbc	0x4 Data Lc rail_rf_hal.o [40]
 
-2003fca8    emSleepyBroadcastHeader    2003da90    emSourceRouteTable    0x4 Data Gb ember-configuration.o [18]
+2003dde8	RAILINT_ea9b410278297cc8ffde721895b754df	0x1 Data Lc rail_power_manager.o [40]
 
-2003de97    emSourceRouteTableSize    0x1 Data Gb ember-configuration.o [18]
+2003dde9	RAILINT_fc5be0212e7d8de22ea1999bc97074c9	0x1 Data Lc rail_power_manager.o [40]
 
-2003e54c    emSourceRouteUpdateEventControls    2003ffd0    emStackTask    0x1 Data Gb zigbee-stack.o [60]
+2003ddea	RAILINT_ba833895b90cade571173e9cc1f31ff4	0x1 Data Lc rail_power_manager.o [40]
 
-2003e5fc    emState::cmuStatus    0x4 Data Lc em_emu.o [13]
+2003ddeb	RAILINT_4da5323023706a3573151ec85c5cdbd1	0x1 Data Lc rail_power_manager.o [40]
 
-2003ffb8    emState::hfClock    0x1 Data Lc em_emu.o [13]
+2003ddec	RAILINT_d86ae0be20b7b59ac6f07f05505134be	0x8 Data Gb rail_power_manager.o [40]
 
-2003e600    emState::hfrcoCtrl    0x4 Data Lc em_emu.o [13]
+2003ddf4	RAILINT_d21cabb76c8c86254d0fa6471a3218ff	0x18 Data Lc rail_power_manager.o [40]
 
-2003ffb9    emState::vScaleStatus    0x1 Data Lc em_emu.o [13]
+2003de0c	RAILINT_4166e0525f6aa1a312a24678877cc290	0x8 Data Lc rail_power_manager.o [40]
 
-2003fd34    emStoreAndForwardDelayEvent    2003da84    emStoreAndForwardQueue    0x4 Data Gb ember-configuration.o [18]
+2003de14	RAILINT_8e005350cd5d653e4431d69ff180ab59	0x8 Data Lc rail_power_manager.o [40]
 
-2003de93    emStoreAndForwardQueueSize    2003de90    emSupportedNetworks    0x1 Data Gb ember-configuration.o [18]
+2003de1c	RAILINT_fe39a20ab6b8c88555edffc1cf461b34	0x4 Data Lc rail_assert.o [40]
 
-00032c3e    emTaskCount    0x1 Data Gb ember-configuration.o [18]
+2003de20	RAILINT_e84623f1874bcfec735b3782e060618b	0x4 Data Lc rail_assert.o [40]
 
-2003e56c    emTasks    0x3c Data Gb ember-configuration.o [18]
+2003de24	sl_mac_network_poll_queue	0x4 Data Gb multi-network.o [60]
 
-2003e52c    emTransientLinkKeyEventControls    2003f3d8    emTransientLinkKeyEventHandler::lastEventTimeMs    2003ffdf    emTreeDepth    0x1 Data Gb random-id.o [60]
+2003de28	RAILINT_7c575f2fe6a8ee0d9ff21025412895c2	0x1 Data Lc rfhal_pa.o [40]
 
-2003fd00    emUnicastTable    0x20 Data Gb unicast-table.o [60]
+2003de29	RAILINT_e2f1a7653e2a24591e2de29d015af8e5	0x1 Data Lc rfhal_pa.o [40]
 
-2003f430    emUnusedPanIdFoundCallback    2003fbe4    emUpperMacEvent    0x8 Data Gb upper-mac.o [60]
+2003de2a	RAILINT_f5ecd93914ec28a70c4f3a6619184fd2	0x1 Data Gb rfhal_pa.o [40]
 
-2003fcec    emWhatISupportAsAParent    2003dea6    emZcAndZrCount    0x1 Data Gb ember-configuration.o [18]
+2003de2b	RAILINT_2bb4c27e2d80ebdc5e6fe1c6037d391f	0x1 Data Lc rfhal_pa.o [40]
 
-2003f3a8    emZigbeeApplicationEvent    2003f460    emZigbeeAssociationEvent    2003f488    emZigbeeBeaconStorageEvent    2003fc6c    emZigbeeDeviceEvent    0x8 Data Gb end-device-bind.o [36]
+2003de2c	RAILINT_330373561ddae26fa64ec7a671649082	0x1 Data Lc rfhal_pa.o [40]
 
-2003f540    emZigbeeLeaveEvent    0x8 Data Gb leave.o [60]
+2003de2d	RAILINT_fda8561769b33bed60d36c3630309dbb	0x1 Data Lc rfhal_pa.o [40]
 
-2003debe    emZigbeeMaxNetworkRetries    00031158    emZigbeeProLibraryStatus    2003ffaa    emZllApplyThresholdToAllInterpans    2003dea7    emZllGroupAddressesNeeded    0003115c    emZllLibraryStatus    0x1 Data Gb zll-api.o [62]
+2003de2e	RAILINT_a43e5e322fbc71f9c8e0264102b1b7ea	0x1 Data Lc rfhal_pa.o [40]
 
-2003fcc4    emZllMacFilterMatchList    2003ffa9    emZllPolicy    0x1 Data Gb ember-configuration.o [18]
+2003de2f	RAILINT_aa3c05ebae179e186de94de736a9d6c4	0x1 Data Lc rfhal_pa.o [40]
 
-2003dea8    emZllRssiThreshold    0x1 Data Gb ember-configuration.o [18]
+2003de30	RAILINT_8732a6d54f1a114a5f1d22ce8d94f1b5	0x1 Data Lc rfhal_pa.o [40]
 
-2003f4fc    emZllSetRxOnWhenIdleEvent    00031170    emZllStackMessages    0xc Data Gb zll-interpan.o [62]
+2003de34	RAILINT_f6dece74f860a31866857e2ce04fd473	0x8 Data Lc rfhal_pa.o [40]
 
-2003f4d0    emZllTouchLinkEvent    0x8 Data Gb zll-api.o [62]
+2003de3c	RAILINT_dc77da5f32d3a568fe32e5e886251c06	0x4 Data Lc rfhal_pa.o [40]
 
-2003f564    emberAfPluginEzspHostTimer0EventControl    2003f56c    emberAfPluginEzspHostTimer1EventControl    2003f3b4    emberAfPluginEzspZigbeeProPollTimer0EventControl    2003f3bc    emberAfPluginEzspZigbeeProPollTimer1EventControl    2003f3c4    emberAfPluginEzspZigbeeProPollTimer2EventControl    2003f3cc    emberAfPluginEzspZigbeeProPollTimer3EventControl    2003de9d    emberAppLinkKeyRequestPolicy    2003de5a    emberApsAckTimeoutMs    0x2 Data Gb ember-configuration.o [18]
+2003de40	RAILINT_ade6963bdef77a1bdead9e41e2150378	0x4 Data Gb rfhal_pa.o [40]
 
-2003de9e    emberAssumedTrustCenterConcentratorType    2003de98    emberBindingTableSize    0x1 Data Gb ember-configuration.o [18]
+2003de44	RAILINT_0167c56a4998a49d75b6c56d1b49fe2d	0x4 Data Gb rfhal_radio.o [40]
 
-2003de8a    emberChildTableSize    0x1 Data Gb ember-configuration.o [18]
+2003de48	RAILINT_b694277d74b2079206e91bc17c36d6af	0x1 Data Lc rfhal_radio.o [40]
 
-2003de86    emberChildTimeoutOptionsMask    2003fd40    emberCounters    0x54 Data Gb counters.o [34]
+2003de4c	RAILINT_0c09f9501fa8d2229fe5bf287a349bbb	0x4 Data Lc rfhal_radio.o [40]
 
-2003fd94    emberCountersThresholds    2003de80    emberEmbernetPassthroughSourceAddress    2003dea3    emberEndDevicePollTimeout    2003dea2    emberEndDevicekeepAliveSupportMode    2003ff84    emberEndpointCount    0x1 Data Gb endpoint-data.o [50]
+2003de50	RAILINT_4d1923ff80adaa65af97cb282936d4a1	0x4 Data Lc ieee802154_efr32xg12_configurator_out.o [40]
 
-2003de9b    emberFragmentWindowSize    2003de9c    emberKeyTableSize    0x1 Data Gb ember-configuration.o [18]
+2003de54	RAILINT_73c5c24f2b94ade5f76d37d6295cffbe	0x4 Data Gb rail_zwave_rf_hal.o [40]
 
-2003de60    emberLinkPowerDeltaInterval    2003fe2c    emberMacCounters    0x84 Data Gb counters.o [34]
+2003de58	emRouteRecordTableTotalSize	0x2 Data Gb ember-configuration.o [18]
 
-2003de5e    emberMacIndirectTimeout    2003ffe2    emberMacPassthroughFlags    2003fde8    emberMultiNetworkCounters    2003da68    emberMulticastTable    0x4 Data Gb ember-configuration.o [18]
+2003de5a	emberApsAckTimeoutMs	0x2 Data Gb ember-configuration.o [18]
 
-2003de8e    emberMulticastTableSize    00032c3a    emberNcpBindingTableTokenSize    00032c3b    emberNcpChildTableTokenSize    00032c3c    emberNcpKeyTableTokenSize    00032c3d    emberNcpNeighborTableTokenSize    2003de5c    emberTransientKeyTimeoutS    2003ffa3    emberTrustCenterLinkKeyRequestPolicy    0001922c    emberUpdateTcLinkKey::allZeroEui64    00031160    emberVersion    0x8 Data Gb ember-version.o [60]
+2003de5c	emberTransientKeyTimeoutS	0x2 Data Gb ember-configuration.o [18]
 
-2003ff81    encodeCount    0x1 Data Lc ash-common.o [45]
+2003de5e	emberMacIndirectTimeout	0x2 Data Gb ember-configuration.o [18]
 
-2003ff82    encodeCrc    0x2 Data Lc ash-common.o [45]
+2003de60	emberLinkPowerDeltaInterval	0x2 Data Gb ember-configuration.o [18]
 
-2003ff7e    encodeEscFlag    0x1 Data Lc ash-common.o [45]
+2003de62	seed0	0x2 Data Gb random.o [15]
 
-2003ff7f    encodeFlip    0x1 Data Lc ash-common.o [45]
+2003de64	seed1	0x2 Data Gb random.o [15]
 
-2003ff80    encodeState    0x1 Data Lc ash-common.o [45]
+2003de66	emManufacturerCode	0x2 Data Gb zigbee-device.o [60]
 
-2003f154    encryptionBlock    0x10 Data Lc ccm-star.o [6]
+2003de68	emPowerDescriptor	0x2 Data Gb zigbee-device.o [60]
 
-2003fc68    endDeviceBindState    0x1 Data Lc end-device-bind.o [36]
+2003de6a	emMaximumIncomingTransferSize	0x2 Data Gb zigbee-device.o [60]
 
-2003de7e    endDeviceBindTarget    0x2 Data Lc end-device-bind.o [36]
+2003de6c	emMaximumOutgoingTransferSize	0x2 Data Gb zigbee-device.o [60]
 
-2003ff86    endpointDataQueue    0x2 Data Lc endpoint-data.o [50]
+2003de6e	trustCenterPolicy	0x2 Data Lc command-handlers-security.o [51]
 
-2003fc0e    energy_reads_average    0x2 Data Lc scan.o [60]
+2003de70	emAllowTcRejoinsUsingWellKnownKeyTimeoutSec	0x2 Data Gb association.o [60]
 
-2003fc1c    energy_reads_count    0x4 Data Lc scan.o [60]
+2003de72	minRejoinPeriodMillisec	0x2 Data Lc aps-security.o [60]
 
-2003fc03    energy_reads_max    0x1 Data Lc scan.o [60]
+2003de74	clearNonZllNetworkBit	0x1 Data Lc zll-api.o [62]
 
-2003fc02    energy_reads_min    0x1 Data Lc scan.o [60]
+2003de76	newNodeId	0x2 Data Lc zll-api.o [62]
 
-2003fc10    energy_reads_variance    0x2 Data Lc scan.o [60]
+2003de78	nodeThatToldUsToLeave	0x2 Data Lc leave.o [60]
 
-2003fbfc    energy_scan_result_summary_index    2003ffdd    entryCount    0x1 Data Lc source-route-table.o [59]
+2003de7a	newPanId	0x2 Data Lc management.o [60]
 
-2003fc98    eventStartTime    0x4 Data Lc retry.o [60]
+2003de7c	pendingNwkUpdatePanId	0x2 Data Lc management.o [60]
 
-2003fd3c    eventStoreAndForwardStartTime    2003e5ec    events_handle    0x8 Data Lc sleep-efm32.o [15]
+2003de7e	endDeviceBindTarget	0x2 Data Lc end-device-bind.o [36]
 
-2003dab0    events_info    0x8 Data Lc sleep-efm32.o [15]
+2003de80	emberEmbernetPassthroughSourceAddress	0x2 Data Gb zigbee-mac-header.o [60]
 
-2003ff44    ezspBuffer    0x2 Data Lc serial-interface-uart.o [18]
+2003de82	nodeIdWithBrokenRoute	0x2 Data Lc source-route-update.o [59]
 
-2003e5a8    ezspFrameContents    0x4 Data Gb serial-interface-uart.o [18]
+2003de84	headerInfoElement	0x2 Data Lc mac-command.o [60]
 
-2003f24c    ezspReadPointer    0x4 Data Gb ezsp-frame-utilities.o [34]
+2003de86	emberChildTimeoutOptionsMask	0x2 Data Lc child-handling.o [60]
 
-2003f250    ezspWritePointer    0x4 Data Gb ezsp-frame-utilities.o [34]
+2003de88	emNumMultiPanForks	0x1 Data Gb ember-configuration.o [18]
 
-2003ffe4    firstScanChannel    0x1 Data Lc zll-interpan.o [62]
+2003de89	emPacketBufferCount	0x1 Data Gb ember-configuration.o [18]
 
-2003ddb4    fixedOffset    0x4 Data Lc mac-flat-header.o [60]
+2003de8a	emberChildTableSize	0x1 Data Gb ember-configuration.o [18]
 
-00030eb8    flashWsTable    0x28 Data Lc em_cmu.o [13]
+2003de8b	emAllowRelay	0x1 Data Gb ember-configuration.o [18]
 
-2003f3a5    fragmentDelay    0x1 Data Lc aps-retry.o [60]
+2003de8c	emRouteTableSize	0x1 Data Gb ember-configuration.o [18]
 
-2003e864    freq    0x4 Data Lc ustimer.o [12]
+2003de8d	emDiscoveryTableSize	0x1 Data Gb ember-configuration.o [18]
 
-2003f25d    frmReTx    0x1 Data Lc ash-ncp.o [45]
+2003de8e	emberMulticastTableSize	0x1 Data Gb ember-configuration.o [18]
 
-2003f25f    frmReTxHead    0x1 Data Lc ash-ncp.o [45]
+2003de8f	emBroadcastTableSize	0x1 Data Gb ember-configuration.o [18]
 
-2003f25e    frmRx    0x1 Data Lc ash-ncp.o [45]
+2003de90	emSupportedNetworks	0x1 Data Gb ember-configuration.o [18]
 
-2003f25c    frmTx    0x1 Data Lc ash-ncp.o [45]
+2003de91	emRouterNeighborTableSize	0x1 Data Gb ember-configuration.o [18]
 
-2003f3b2    gAllowRejoinsWithWellKnownKey    2003ffcd    gNwkUpdateId    0x1 Data Gb association.o [60]
+2003de92	emRetryQueueSize	0x1 Data Gb ember-configuration.o [18]
 
-2003f420    gProxySourceNodeId    0x2 Data Lc zigbee-device-util.o [60]
+2003de93	emStoreAndForwardQueueSize	0x1 Data Gb ember-configuration.o [18]
 
-2003f41d    gProxyTheBroadcast    0x1 Data Lc zigbee-device-util.o [60]
+2003de94	emGpIncomingFCTokenTimeout	0x1 Data Gb ember-configuration.o [18]
 
-2003deb7    gScanDuration    0x1 Data Gb association.o [60]
+2003de95	emGpProxyTableSize	0x1 Data Gb ember-configuration.o [18]
 
-2003deb2    gSeq    0x1 Data Lc zigbee-device-util.o [60]
+2003de96	emGpIncomingFCInSinkTokenTimeout	0x1 Data Gb ember-configuration.o [18]
 
-2003e784    gpioCallbacks    0x40 Data Lc gpiointerrupt.o [12]
+2003de97	emSourceRouteTableSize	0x1 Data Gb ember-configuration.o [18]
 
-20001c80    guardRegionPlaceHolder    0x20 Data Gb cstartup-common.o [15]
+2003de98	emberBindingTableSize	0x1 Data Gb ember-configuration.o [18]
 
-00000    halAppAddressTable    0xac Data Gb cstartup-common.o [15]
+2003de99	emAddressTableSize	0x1 Data Gb ember-configuration.o [18]
 
-00030a18    halInternalClassifyReset::resetEventTable    2003daac    halInternalPa2p4GHzInit    20000000    halResetInfo    0x9c Data Gb cstartup-common.o [15]
+2003de9a	emMaxApsUnicastMessages	0x1 Data Gb ember-configuration.o [18]
 
-2003ffc6    halSimEepromCallback{1}{2}{6}::repairActive    2003de84    headerInfoElement    0x2 Data Lc mac-command.o [60]
+2003de9b	emberFragmentWindowSize	0x1 Data Gb ember-configuration.o [18]
 
-2003f224    heapPointer    0x4 Data Lc buffer-management.o [60]
+2003de9c	emberKeyTableSize	0x1 Data Gb ember-configuration.o [18]
 
-2003e5e4    hf_x_oscillator_wakeup_time_tc_inital    2003e5e0    hfxo_wakeup_time_tick    0x4 Data Lc sl_power_manager_hal_s0_s1.o [15]
+2003de9d	emberAppLinkKeyRequestPolicy	0x1 Data Gb ember-configuration.o [18]
 
-2003e82c    highCallback    0x4 Data Lc tempdrv.o [12]
+2003de9e	emberAssumedTrustCenterConcentratorType	0x1 Data Gb ember-configuration.o [18]
 
-2003e5d4    high_frequency_min_offtime_tick    00031168    ieee802154_2p4_coherent_timing    2003fbfa    indirectTimeoutMs    0x2 Data Lc indirect-queue.o [60]
+2003de9f	emDefaultSecurityLevel	0x1 Data Gb ember-configuration.o [18]
 
-2003ff6a    initialEzspVersionSent    0x1 Data Lc command-handlers.o [34]
+2003dea0	emMaxEndDeviceChildren	0x1 Data Gb ember-configuration.o [18]
 
-2003ffcf    initialOutgoingCost    0x1 Data Lc neighbor.o [60]
+2003dea1	emMaxHops	0x1 Data Gb ember-configuration.o [18]
 
-2003ffba    initialized    0x1 Data Lc dmadrv.o [12]
+2003dea2	emberEndDevicekeepAliveSupportMode	0x1 Data Gb ember-configuration.o [18]
 
-00013368    isItDeviceAnnouncePacket::deviceAnnouncePacketSignature    2003ffb3    is_dpll_used    0x1 Data Lc sl_power_manager_hal_s0_s1.o [15]
+2003dea3	emberEndDevicePollTimeout	0x1 Data Gb ember-configuration.o [18]
 
-2003ffb2    is_hf_x_oscillator_already_started    2003ffb0    is_hf_x_oscillator_not_preserved    2003ffb1    is_hf_x_oscillator_used    2003ffab    is_initialized    0x1 Data Lc sl_power_manager.o [15]
+2003dea4	emEndDeviceBindTimeout	0x1 Data Gb ember-configuration.o [18]
 
-2003ffbb    is_sleeptimer_initialized    2003ffae    is_states_saved    0x1 Data Lc sl_power_manager.o [15]
+2003dea5	emPanIdConflictReportThreshold	0x1 Data Gb ember-configuration.o [18]
 
-2003fc8e    jitOrRetryTxBusy    0x1 Data Gb retry.o [60]
+2003dea6	emZcAndZrCount	0x1 Data Gb ember-configuration.o [18]
 
-2003f448    joinState    0x14 Data Gb association.o [60]
+2003dea7	emZllGroupAddressesNeeded	0x1 Data Gb ember-configuration.o [18]
 
-2003f3d6    keyCount    0x2 Data Lc aps-keys-transient.o [56]
+2003dea8	emZllRssiThreshold	0x1 Data Gb ember-configuration.o [18]
 
-2003f4a0    keyDataCopy    0x10 Data Lc aps-security.o [60]
+2003dea9	cc_disabled	0x1 Data Lc sl_sleeptimer_hal_rtcc.o [12]
 
-2003ff8c    lastAgingTime    0x2 Data Lc broadcast.o [60]
+2003deaa	emMacMaxRetries	0x1 Data Gb lower-mac-rail-802.15.4.o [60]
 
-2003ff64    lastAgingTimeQs    0x2 Data Lc route-table.o [60]
+2003deab	addressMatchingEnabled	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003fbf4    lastEventTimeMS    0x2 Data Lc indirect-queue.o [60]
+2003deac	autoAckEnabled	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003f3b0    lastEventTimeMs    0x2 Data Lc aps-retry.o [60]
+2003dead	edCcaThreshold	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003f404    lastGpdf    0x10 Data Lc gp-data.o [37]
+2003deae	emReencryptRetries	0x1 Data Gb aps-retry.o [60]
 
-2003f548    lastRejoinStartTime    0x4 Data Lc network.o [60]
+2003deaf	bindingModificationPolicyDecision	0x1 Data Lc command-handlers-binding.o [46]
 
-2003fc79    lastReportTimeMin    0x1 Data Lc zdo-channel.o [60]
+2003deb0	unicastRepliesPolicyDecision	0x1 Data Gb command-handlers-zigbee-pro.o [50]
 
-2003df00    lastRxWithAckTime    0x4 Data Lc lower-mac-rail-802.15.4.o [60]
+2003deb1	pollHandlerPolicyDecision	0x1 Data Gb command-handlers-zigbee-pro.o [50]
 
-2003e7cc    last_delta_update_count    2003f53c    leaveReason    0x1 Data Lc leave.o [60]
+2003deb2	gSeq	0x1 Data Lc zigbee-device-util.o [60]
 
-000309f4    ledArray    0x10 Data Lc led.o [16]
+2003deb3	zdoConfigurationModeEnabled	0x1 Data Gb zigbee-device-util.o [60]
 
-2003decc    libraryEnabled    0x1 Data Lc packet-validate.o [54]
+2003deb4	sendNwkLeaveAnnounceWithOptions	0x1 Data Gb zigbee-device-util.o [60]
 
-00026254    libraryInfo    0x54 Data Lc ember-library.o [60]
+2003deb5	sl_zll_scan_attempts	0x1 Data Lc zigbee-scan.o [60]
 
-2003fc69    localBindUnbindResponse    2003fbf6    longIndirectPool    0x2 Data Lc indirect-queue.o [60]
+2003deb6	emEraseChildTableOnJoin	0x1 Data Gb association.o [60]
 
-2003df04    lookupCache    0x24 Data Gb sim-eeprom2.o [22]
+2003deb7	gScanDuration	0x1 Data Gb association.o [60]
 
-2003e830    lowCallback    0x4 Data Lc tempdrv.o [12]
+2003deb8	emBeaconJitterDuration	0x1 Data Gb beacon-handling.o [60]
 
-00030f28    m2p    0x10 Data Gb dmadrv.o [12]
+2003deb9	rejoinMode	0x1 Data Lc aps-security.o [60]
 
-00024f90    macCommandSizes    0xc Data Lc packet-validate.o [54]
+2003deba	bdbTcLinkKeyExchangeAttemptsMax	0x1 Data Lc aps-keys.o [60]
 
-2003fc78    macIsInactive    0x1 Data Lc zdo-channel.o [60]
+2003debb	routingShortcutThreshold	0x1 Data Lc neighbor.o [60]
 
-000050f4    macOnlyCounters    0x8 Data Lc ember-stack-common.o [60]
+2003debc	resetRejoiningNeighborsFC	0x1 Data Lc neighbor.o [60]
 
-2003dee0    macRetries    0x1 Data Lc lower-mac-rail-802.15.4.o [60]
+2003debd	originalRadioIdleMode	0x1 Data Lc zll-api.o [62]
 
-2003ffda    mac_outgoing_sequence_number    00015e08    markers    0x60 Data Lc zigbee-stack.o [60]
+2003debe	emZigbeeMaxNetworkRetries	0x1 Data Gb network.o [60]
 
-2003f485    maxBeaconsToStore    0x1 Data Gb beacon-handling.o [60]
+2003debf	brokenRouteErrorCode	0x1 Data Lc network.o [60]
 
-2003ff92    maxHops    0x1 Data Lc source-route-update.o [59]
+2003dec0	messageContentsInCallbackPolicyDecision	0x1 Data Gb command-handlers.o [34]
 
-2003ff9c    maxQS    0x2 Data Lc source-route-update.o [59]
+2003dec1	currentNetworkStackIndex	0x1 Data Gb ember-multi-network.o [43]
 
-2003e7d0    max_millisecond_conversion    2003dec0    messageContentsInCallbackPolicyDecision    0001ad9c    messageLengths    0xc Data Gb zll-interpan.o [62]
+2003dec2	sl_mac_child_table_size	0x1 Data Gb mac-child.o [60]
 
-0002e648    mfgTokenData    0x58 Data Lc command-handlers.o [34]
+2003dec3	current_child_table_pointer_stack_index	0x1 Data Gb mac-child.o [60]
 
-2003ff9a    minQS    0x2 Data Lc source-route-update.o [59]
+2003dec4	emBootloaderMode	0x1 Data Gb main.o [34]
 
-2003de72    minRejoinPeriodMillisec    2003e868    minTicks    0x4 Data Lc ustimer.o [12]
+2003dec5	emAfTaskId	0x1 Data Gb main.o [34]
 
-2003deec    miscInternalFlags    0x2 Data Lc lower-mac-rail-802.15.4.o [60]
+2003dec6	newestIndex	0x1 Data Lc source-route-table.o [59]
 
-00027ef0    mtorFlags    0x8 Data Lc zigbee-device.o [60]
+2003dec7	pendingNwkUpdateChannel	0x1 Data Gb zdo-channel.o [60]
 
-0001c49c    multiNetworkCounterTable    2003fcc8    myLastResponseId    0x4 Data Lc zll-interpan.o [62]
+2003dec8	emBroadcastMinAcksNeeded	0x1 Data Gb broadcast.o [60]
 
-2003fcd0    myLastTransactionId    0x4 Data Lc zll-interpan.o [62]
+2003dec9	cachingNetworkIndex	0x1 Data Lc token-cache.o [60]
 
-00030ff0    nChanAportNegSelMap    0x8 Data Gb adc-efr32.o [2]
+2003deca	emMtorrFlowControl	0x1 Data Gb route-discovery.o [60]
 
-00024f9c    networkCommandBaseSizes    2003f468    networkInitData    0x2 Data Lc association.o [60]
+2003decb	outGoingZllNwkRequestCommandId	0x1 Data Lc zll-interpan.o [62]
 
-2003dcb0    networkKeyTimeoutMs    0x4 Data Lc association.o [60]
+2003decc	libraryEnabled	0x1 Data Lc packet-validate.o [54]
 
-2003f428    networkScanProcedure    0x1 Data Lc zigbee-scan.o [60]
+2003ded0	csmaParams	0xc Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003ffce    newChannel    0x1 Data Lc association.o [60]
+2003dedc	rhoActive	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003f4e0    newNetwork    0x18 Data Lc zll-api.o [62]
+2003dedd	emLowerMacState	0x1 Data Gb lower-mac-rail-802.15.4.o [60]
 
-2003de76    newNodeId    0x2 Data Lc zll-api.o [62]
+2003dede	current_force_tx_after_failed_cca_attempts	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003fc75    newNwkUpdateId    0x1 Data Lc zdo-channel.o [60]
+2003dedf	default_force_tx_after_failed_cca_attempts	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003de7a    newPanId    0x2 Data Lc management.o [60]
+2003dee0	macRetries	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003dec6    newestIndex    0x1 Data Lc source-route-table.o [59]
+2003dee1	emMacOutgoingSequenceNumber	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003fc88    nextApsFrameCounter    0x4 Data Lc aps-encryption.o [60]
+2003dee2	old_csma_tries	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003f494    nextBeaconIsEnhanced    0x1 Data Gb beacon-handling.o [60]
+2003dee3	ptaGntEventReported	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003fed3    nextIndex    0x1 Data Lc security-address-cache.o [50]
+2003dee4	emLowerMacEvent	0x8 Data Gb lower-mac-rail-802.15.4.o [60]
 
-2003f208    nextPage    0x4 Data Gb sim-eeprom2-internal.o [58]
+2003deec	miscInternalFlags	0x2 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003ffbc    next_timer_to_expire_is_power_manager    2003de82    nodeIdWithBrokenRoute    0x2 Data Lc source-route-update.o [59]
+2003deee	currentIncomingFrame	0x2 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003de78    nodeThatToldUsToLeave    0x2 Data Lc leave.o [60]
+2003def0	currentEventConfig	0x8 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003e824    nullCallback    0x8 Data Lc tempdrv.o [12]
+2003def8	emPhyRailHandle	0x4 Data Gb lower-mac-rail-802.15.4.o [60]
 
-00030a90    nullEui    0x8 Data Lc mfg-token.o [15]
+2003defc	currentOutgoingPacket	0x4 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003ffd2    nwkSequenceNumber    0x1 Data Lc application-support.o [60]
+2003df00	lastRxWithAckTime	0x4 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003ffd4    oldCheckCca    0x1 Data Lc mfglib.o [42]
+2003df04	lookupCache	0x24 Data Gb sim-eeprom2.o [22]
 
-2003dee2    old_csma_tries    0x1 Data Lc lower-mac-rail-802.15.4.o [60]
+2003df28	childPolledBitField	0x20 Data Lc indirect-queue.o [60]
 
-2003fc7a    oneScanDone    0x1 Data Lc zdo-channel.o [60]
+2003df48	childIsExpectingMessageBitField	0x20 Data Lc indirect-queue.o [60]
 
-2003debd    originalRadioIdleMode    0x1 Data Lc zll-api.o [62]
+2003df68	RAILINT_bdd7c430db042ad89171d8e803aae8e1	0x2 Data Lc rfhal_bufc.o [40]
 
-2003f4cd    originalRadioPower    0x1 Data Lc zll-api.o [62]
+2003df6a	RAILINT_e5d0f904fed9e7727ad00d9e67f16448	0x2 Data Lc rfhal_bufc.o [40]
 
-2003decb    outGoingZllNwkRequestCommandId    2003ff54    overflow_counter    0x2 Data Lc sl_sleeptimer.o [12]
+2003df6c	RAILINT_dda73866dbe0e13aec5e401c3931aad8	0x4 Data Gb rfhal_bufc.o [40]
 
-00030f38    p2m    0x10 Data Gb dmadrv.o [12]
+2003df70	RAILINT_7333477fe484b7c355c95cdae836aac4	0x4 Data Lc rfhal_bufc.o [40]
 
-00030fe8    pChanAportPosSelMap    0x8 Data Gb adc-efr32.o [2]
+2003df78	RAILINT_5b96d239ae15c75cb47034d098feaa12	0x80 Data Lc rfhal_bufc.o [40]
 
-00030aac    paInit2p4    0x8 Data Lc micro.o [15]
+2003dff8	RAILINT_9302044fb432b0ddafbe0c0fcfc016d4	0x18 Data Gb generic_phy.o [40]
 
-00024fc8    packetChecks    0x30 Data Lc packet-validate.o [54]
+2003e010	RAILINT_5529a7fedbc1f978956ae0b49513f0b3	0x1 Data Lc generic_phy.o [40]
 
-2003fcee    panConflictMeters    0x2 Data Gb ember-configuration.o [18]
+2003e011	RAILINT_05831ea87f834358b3b734107f7b63dd	0x1 Data Lc generic_phy.o [40]
 
-2003f41e    parentAnnounceIndex    0x1 Data Gb zigbee-device-util.o [60]
+2003e012	RAILINT_eaa79dc94bf95ef0149860bb11b220a6	0x1 Data Lc generic_phy.o [40]
 
-2003f3a4    pendingAckedCount    0x1 Data Lc aps-retry.o [60]
+2003e013	RAILINT_8eca1e944f2c00e1acdd775a43afb04a	0x1 Data Lc generic_phy.o [40]
 
-2003dec7    pendingNwkUpdateChannel    2003de7c    pendingNwkUpdatePanId    0x2 Data Lc management.o [60]
+2003e014	RAILINT_aaca8a673d20a2e248f9bde5f069f726	0x1 Data Lc generic_phy.o [40]
 
-2003ff6c    permittedCommands    0x1 Data Gb command-handlers.o [34]
+2003e015	RAILINT_02b5f58b2ace2c87fac8c8ae61769272	0x1 Data Lc generic_phy.o [40]
 
-2003f212    phyToMacQueue    0x2 Data Lc buffer-management.o [60]
+2003e018	RAILINT_6404b7e2394e171eddffaf17db29dc90	0x8 Data Lc generic_phy.o [40]
 
-2003deb1    pollHandlerPolicyDecision    2003ffe8    pollQueueHead    0x1 Data Lc multi-network.o [60]
+2003e020	RAILINT_c70aa1477a5ccb6549d4887be5eda9d7	0x4 Data Lc generic_phy.o [40]
 
-2003dc80    pollTimers    0x30 Data Lc polling.o [50]
+2003e024	ptrCache	0x1ac Data Gb sim-eeprom2.o [22]
 
-2003e5b8    power_manager_em_transition_event_list    00030f94    powers10    0x24 Data Lc ember-printf.o [11]
+2003e1d0	comFifoQueueRxVcp	0x48 Data Lc com.o [20]
 
-2003e5e8    process_wakeup_overhead_tick    2003dee3    ptaGntEventReported    0x1 Data Lc lower-mac-rail-802.15.4.o [60]
+2003e218	comFifoQueueTxVcp	0x88 Data Lc com.o [20]
 
-2003e024    ptrCache    0x1ac Data Gb sim-eeprom2.o [22]
+2003e2a0	comFifoQueueRxUsart0	0x88 Data Lc com.o [20]
 
-2003f45c    purgeBeaconsAfterJoinSuccess    2003f4ce    radioOnForRequestOnly    0x1 Data Lc zll-api.o [62]
+2003e328	comFifoQueueTxUsart0	0x88 Data Lc com.o [20]
 
-2003ffc7    radioPowerFem::femPowered    2003dad0    radioSchedulerPriorityTable    2003dcb8    radioTransmitConfig    0x8 Data Gb zigbee-stack.o [60]
+2003e3b0	comhandledata	0x38 Data Lc com.o [20]
 
-2003dae4    railCfg    0x174 Data Lc lower-mac-rail-802.15.4.o [60]
+2003e3e8	uarthandledata	0x38 Data Lc com.o [20]
 
-2003f180    railSchedState    0x68 Data Lc lower-mac-rail-802.15.4.o [60]
+2003e420	blacklistedIdsArray	0x4 Data Gb ember-configuration.o [18]
 
-2003f278    reTxQueue    0x2 Data Lc ash-ncp.o [45]
+2003e424	emMultiPanEventData	0xa8 Data Gb ember-configuration.o [18]
 
-2003fce0    receivedTimeoutResponse    2003e5b4    region_nbr    0x4 Data Lc sl_mpu.o [15]
+2003e4cc	emBeaconEventControls	0x10 Data Gb ember-configuration.o [18]
 
-2003deb9    rejoinMode    0x1 Data Lc aps-security.o [60]
+2003e4dc	emPermitJoiningEventControls	0x10 Data Gb ember-configuration.o [18]
 
-2003fcb8    remainingMemory    0x4 Data Lc memory-allocation.o [34]
+2003e4ec	emNetworkManagementEventControls	0x10 Data Gb ember-configuration.o [18]
 
-2003f202    repairCounter    0x2 Data Lc sim-eeprom2-internal.o [58]
+2003e4fc	emNeighborExchangeEventControls	0x10 Data Gb ember-configuration.o [18]
 
-2003ff5e    requestKeyBuffer    0x2 Data Lc trust-center-util.o [60]
+2003e50c	emRequestKeyEventControls	0x10 Data Gb ember-configuration.o [18]
 
-2003ff4c    requirement_em_table    0x2 Data Lc sl_power_manager.o [15]
+2003e51c	emSendParentAnnounceEventControls	0x10 Data Gb ember-configuration.o [18]
 
-2003ffac    requirement_high_accuracy_hf_clock_counter    2003ffaf    requirement_on_em1_added    00030ee0    resetCauseMasks    0x48 Data Lc em_rmu.o [13]
+2003e52c	emTransientLinkKeyEventControls	0x10 Data Gb ember-configuration.o [18]
 
-2003debc    resetRejoiningNeighborsFC    2003ff6b    responseSequence    0x1 Data Gb command-handlers.o [34]
+2003e53c	emGpTxEventControls	0x10 Data Gb ember-configuration.o [18]
 
-2003fce1    responseTimeoutRemaining    2003ff6d    responseTruncated    0x1 Data Gb command-handlers.o [34]
+2003e54c	emSourceRouteUpdateEventControls	0x10 Data Gb ember-configuration.o [18]
 
-2003dedc    rhoActive    0x1 Data Lc lower-mac-rail-802.15.4.o [60]
+2003e55c	emAllowTcRejoinsUsingWellKnownKeyEventControls	0x10 Data Gb ember-configuration.o [18]
 
-2003ff93    routeErrorCount    0x1 Data Lc source-route-update.o [59]
+2003e56c	emTasks	0x3c Data Gb ember-configuration.o [18]
 
-2003ff90    routeErrorThreshold    0x1 Data Lc source-route-update.o [59]
+2003e5a8	ezspFrameContents	0x4 Data Gb serial-interface-uart.o [18]
 
-2003ffe1    routeRequestId    0x1 Data Lc route-discovery.o [60]
+2003e5ac	savedAssertInfo	0x8 Data Lc cstartup-common.o [15]
 
-2003ff62    routeTableTimer    0x1 Data Lc route-table.o [60]
+2003e5b4	region_nbr	0x4 Data Lc sl_mpu.o [15]
 
-2003debb    routingShortcutThreshold    2003e86c    rtt_buffer    0x40 Data Lc debug-jtag-efr32.o [9]
+2003e5b8	power_manager_em_transition_event_list	0x4 Data Lc sl_power_manager.o [15]
 
-2003dacc    rtt_buffer_index    0x4 Data Lc debug-jtag-efr32.o [9]
+2003e5bc	clock_wakeup_timer_handle	0x18 Data Lc sl_power_manager.o [15]
 
-2003f4f9    rxAlwaysOn    0x1 Data Lc zll-api.o [62]
+2003e5d4	high_frequency_min_offtime_tick	0x4 Data Gb sl_power_manager.o [15]
 
-2003f266    rxBuffer    0x2 Data Lc ash-ncp.o [45]
+2003e5d8	wakeup_time_config_overhead_tick	0x4 Data Gb sl_power_manager.o [15]
 
-2003f268    rxDataBuffer    0x2 Data Lc ash-ncp.o [45]
+2003e5dc	sleeptimer_frequency	0x4 Data Lc sl_power_manager.o [15]
 
-2003f26a    rxFirstDataBuffer    0x2 Data Lc ash-ncp.o [45]
+2003e5e0	hfxo_wakeup_time_tick	0x4 Data Lc sl_power_manager_hal_s0_s1.o [15]
 
-2003f263    rxFirstDataBufferFree    0x1 Data Gb ash-ncp.o [45]
+2003e5e4	hf_x_oscillator_wakeup_time_tc_inital	0x4 Data Lc sl_power_manager_hal_s0_s1.o [15]
 
-2003f262    rxLen    0x1 Data Lc ash-ncp.o [45]
+2003e5e8	process_wakeup_overhead_tick	0x4 Data Lc sl_power_manager_hal_s0_s1.o [15]
 
-2003f164    rxMic    0x4 Data Lc ccm-star.o [6]
+2003e5ec	events_handle	0x8 Data Lc sleep-efm32.o [15]
 
-2003e5ac    savedAssertInfo    0x8 Data Lc cstartup-common.o [15]
+2003e5f4	wakeInfo	0x4 Data Lc sleep-efm32.o [15]
 
-2003fc58    savedRequests    0x10 Data Lc end-device-bind.o [36]
+2003e5f8	em4WakeupCause	0x4 Data Lc sleep-efm32.o [15]
 
-2003ff4a    savedResetCause    0x2 Data Lc cstartup-common.o [15]
+2003e5fc	emState::cmuStatus	0x4 Data Lc em_emu.o [13]
 
-2003ffe5    scanAttempts    0x1 Data Lc zll-interpan.o [62]
+2003e600	emState::hfrcoCtrl	0x4 Data Lc em_emu.o [13]
 
-2003f42a    scanDataCache    0x2 Data Gb zigbee-scan.o [60]
+2003e604	chTable	0x80 Data Lc dmadrv.o [12]
 
-2003fc84    scanRequestHeader    0x2 Data Lc zdo-channel.o [60]
+2003e684	dmaXfer	0x100 Data Lc dmadrv.o [12]
 
-2003f4da    scanRequestInformation    0x2 Data Lc zll-api.o [62]
+2003e784	gpioCallbacks	0x40 Data Lc gpiointerrupt.o [12]
 
-2003fc86    scanResults    0x2 Data Lc zdo-channel.o [60]
+2003e7c4	timer_frequency	0x4 Data Lc sl_sleeptimer.o [12]
 
-2003f4cb    scanningInProgress    0x1 Data Lc zll-api.o [62]
+2003e7c8	timer_head	0x4 Data Lc sl_sleeptimer.o [12]
 
-2003fc77    scansRemaining    0x1 Data Lc zdo-channel.o [60]
+2003e7cc	last_delta_update_count	0x4 Data Lc sl_sleeptimer.o [12]
 
-2003de62    seed0    0x2 Data Gb random.o [15]
+2003e7d0	max_millisecond_conversion	0x4 Data Lc sl_sleeptimer.o [12]
 
-2003de64    seed1    0x2 Data Gb random.o [15]
+2003e7d4	tempdrvHighCallbacks	0x28 Data Lc tempdrv.o [12]
 
-2003ff95    sendAddressDiscoveryNextEvent    2003f26c    sendBuffer    0x2 Data Lc ash-ncp.o [45]
+2003e7fc	tempdrvLowCallbacks	0x28 Data Lc tempdrv.o [12]
 
-2003dd8c    sendFromEui    0x8 Data Lc application-support.o [60]
+2003e824	nullCallback	0x8 Data Lc tempdrv.o [12]
 
-2003dd88    sendFromSource    0x2 Data Lc application-support.o [60]
+2003e82c	highCallback	0x4 Data Lc tempdrv.o [12]
 
-2003deb4    sendNwkLeaveAnnounceWithOptions    2003f258    sendState    0x1 Data Lc ash-ncp.o [45]
+2003e830	lowCallback	0x4 Data Lc tempdrv.o [12]
 
-2003ffc1    sequenceNumber    0x1 Data Lc debug-jtag-efr32.o [9]
+2003e834	calibrationEMU	0x4 Data Lc tempdrv.o [12]
 
-2003ff5c    serverMask    0x2 Data Gb zigbee-device.o [60]
+2003e838	calibrationTEMP	0x4 Data Lc tempdrv.o [12]
 
-2003fbf8    shortIndirectPool    0x2 Data Lc indirect-queue.o [60]
+2003e83c	delayedTxTimer	0x18 Data Gb uartdrv.o [12]
 
-2003f200    simEe1Found    0x1 Data Gb sim-eeprom2-internal.o [58]
+2003e854	uartdrvHandle	0x10 Data Lc uartdrv.o [12]
 
-2003ffb6    simEeSetDataActiveSemaphore    2003d944    simulatedEepromAddress    0x4 Data Gb sim-eeprom2.o [22]
+2003e864	freq	0x4 Data Lc ustimer.o [12]
 
-000f7000    simulatedEepromStorage    0x9000 Data Gb sim-eeprom2.o [22]
+2003e868	minTicks	0x4 Data Lc ustimer.o [12]
 
-00030944    sizeCache    0x24 Data Gb sim-eeprom2.o [22]
+2003e86c	rtt_buffer	0x40 Data Lc debug-jtag-efr32.o [9]
 
-2003fc0c    sl_energy_scan_result_summary_buffer    2003ddb8    sl_go_to_next_channel_decision    2003fc20    sl_mac_active_response_callback    2003f7e0    sl_mac_child_table    0x4 Data Gb mac-child.o [60]
+2003e8ac	_SEGGER_RTT	0xa8 Data Gb SEGGER_RTT.o [8]
 
-2003f7b0    sl_mac_child_table_pointers    2003dec2    sl_mac_child_table_size    2003f7a4    sl_mac_custom_filter_list    2003fc2c    sl_mac_energy_response_callback    2003fbec    sl_mac_indirect_event    0x8 Data Gb indirect-queue.o [60]
+2003e954	_acUpBuffer	0x400 Data Lc SEGGER_RTT.o [8]
 
-2003de24    sl_mac_network_poll_queue    2003fc24    sl_mac_scan_complete_callback    2003fc04    sl_mac_scan_event    0x8 Data Gb scan.o [60]
+2003ed54	_acDownBuffer	0x400 Data Lc SEGGER_RTT.o [8]
 
-2003ddbc    sl_mac_scan_request_callback    2003f7a0    sl_mac_stack_filter_list    2003f7e4    sl_mac_upper_mac_state    0x400 Data Gb upper-mac.o [60]
+2003f154	encryptionBlock	0x10 Data Lc ccm-star.o [6]
 
-2003fbfe    sl_next_channel    0x1 Data Lc scan.o [60]
+2003f164	rxMic	0x4 Data Lc ccm-star.o [6]
 
-2003fc18    sl_scan_channel_mask    0x4 Data Lc scan.o [60]
+2003f168	calcMic	0x4 Data Lc ccm-star.o [6]
 
-2003fbff    sl_scan_duration    0x1 Data Lc scan.o [60]
+2003f16c	adcConfig	0xc Data Lc adc-efr32.o [2]
 
-2003fc14    sl_scan_frame_counter    0x4 Data Lc scan.o [60]
+2003f178	adcReadings	0x8 Data Lc adc-efr32.o [2]
 
-2003fc00    sl_scan_transmit_retries    2003fbfd    sl_scan_type    0x1 Data Lc scan.o [60]
+2003f180	railSchedState	0x68 Data Lc lower-mac-rail-802.15.4.o [60]
 
-2003deb5    sl_zll_scan_attempts    0x1 Data Lc zigbee-scan.o [60]
+2003f1e8	emMfglibRxCallback	0x4 Data Gb lower-mac-rail-802.15.4.o [60]
 
-2003ffdc    sleepMode    0x1 Data Gb main.o [34]
+2003f1ec	debugTraceOn	0x1 Data Lc debug-extended.o [32]
 
-2003f230    sleepTimerInterruptOccurred    2003ffbd    sleep_on_isr_exit    0x1 Data Lc sl_sleeptimer.o [12]
+2003f1ed	txBufferSize	0x1 Data Lc debug-extended.o [32]
 
-2003e5dc    sleeptimer_frequency    0x4 Data Lc sl_power_manager.o [15]
+2003f1ee	txBufferLength	0x1 Data Lc debug-extended.o [32]
 
-2003fc9c    sleepyBroadcastInfo    0x1 Data Lc jit.o [60]
+2003f1f0	txBuffer	0x4 Data Lc debug-extended.o [32]
 
-2003fc28    sli_mac_energy_scan_complete_callback    2003f201    soFullRepairIsNeeded    0x1 Data Lc sim-eeprom2-internal.o [58]
+2003f1f4	statsTable	0xc Data Lc debug-extended.o [32]
 
-2003f20c    sparePage    0x4 Data Gb sim-eeprom2-internal.o [58]
+2003f200	simEe1Found	0x1 Data Gb sim-eeprom2-internal.o [58]
 
-2003dcc0    stackEvents    0xc8 Data Gb zigbee-stack.o [60]
+2003f201	soFullRepairIsNeeded	0x1 Data Lc sim-eeprom2-internal.o [58]
 
-0001bc04    stackTokenInfo    0x3c Data Lc token-cache.o [60]
+2003f202	repairCounter	0x2 Data Lc sim-eeprom2-internal.o [58]
 
-2003f4c8    state    0x1 Data Lc zll-api.o [62]
+2003f204	currPage	0x4 Data Gb sim-eeprom2-internal.o [58]
 
-2003f27c    staticBuffer    0xdc Data Lc ash-ncp.o [45]
+2003f208	nextPage	0x4 Data Gb sim-eeprom2-internal.o [58]
 
-2003f1f4    statsTable    0xc Data Lc debug-extended.o [32]
+2003f20c	sparePage	0x4 Data Gb sim-eeprom2-internal.o [58]
 
-2003fd30    storeAndForwardDelayCount    2003fd31    storeAndForwardSubmitCount    2003f3d4    storedKeysList    0x2 Data Lc aps-keys-transient.o [56]
+2003f210	tracePhase	0x1 Data Lc buffer-management.o [60]
 
-2003fc8d    submitCount    0x1 Data Lc retry.o [60]
+2003f212	phyToMacQueue	0x2 Data Lc buffer-management.o [60]
 
-2003f558    superRetriesIntervalForMacDataPoll    2003f782    supportedNetworksDuringSave    2003f4f8    suspendRxOnWhenIdle    0x1 Data Lc zll-api.o [62]
+2003f214	emMallocFreeList	0x2 Data Gb buffer-management.o [60]
 
-2003f234    systemTimerId    0x18 Data Lc system-timer.o [38]
+2003f216	userDataCount	0x2 Data Lc buffer-management.o [60]
 
-2003ffcb    tagMapInited    0x1 Data Lc command-handlers-zigbee-pro.o [50]
+2003f218	bufferTracker	0x2 Data Lc buffer-management.o [60]
 
-2003fcd8    targetEui64    0x8 Data Lc zll-interpan.o [62]
+2003f21c	emHeapBase	0x4 Data Lc buffer-management.o [60]
 
-2003e7d4    tempdrvHighCallbacks    0x28 Data Lc tempdrv.o [12]
+2003f220	emHeapLimit	0x4 Data Gb buffer-management.o [60]
 
-2003e7fc    tempdrvLowCallbacks    0x28 Data Lc tempdrv.o [12]
+2003f224	heapPointer	0x4 Data Lc buffer-management.o [60]
 
-2003fccc    theirLastTransactionId    0x4 Data Lc zll-interpan.o [62]
+2003f228	userData	0x4 Data Lc buffer-management.o [60]
 
-2003ffc0    timeElapsed    0x1 Data Lc ustimer.o [12]
+2003f22c	asynchronousHeapLimit	0x4 Data Lc buffer-management.o [60]
 
-2003e7c4    timer_frequency    0x4 Data Lc sl_sleeptimer.o [12]
+2003f230	sleepTimerInterruptOccurred	0x1 Data Lc system-timer.o [38]
 
-2003e7c8    timer_head    0x4 Data Lc sl_sleeptimer.o [12]
+2003f234	systemTimerId	0x18 Data Lc system-timer.o [38]
 
-00030b6c    tokenArraySize    0x24 Data Gb token-def.o [15]
+2003f24c	ezspReadPointer	0x4 Data Gb ezsp-frame-utilities.o [34]
 
-00030adc    tokenCreators    0x48 Data Gb token-def.o [15]
+2003f250	ezspWritePointer	0x4 Data Gb ezsp-frame-utilities.o [34]
 
-00030de0    tokenDefaults    0x90 Data Gb token-def.o [15]
+2003f254	txBuffer	0x4 Data Lc ash-ncp.o [45]
 
-00028cd8    tokenFlagsToSizeArray    0x4 Data Lc install-code-tokens.o [39]
+2003f258	sendState	0x1 Data Lc ash-ncp.o [45]
 
-00030b24    tokenIsCnt    0x24 Data Gb token-def.o [15]
+2003f259	ashError	0x1 Data Lc ash-ncp.o [45]
 
-00030b48    tokenSize    0x24 Data Gb token-def.o [15]
+2003f25a	ackRx	0x1 Data Lc ash-ncp.o [45]
 
-2003ffb5    tokensActive    0x1 Data Gb token.o [15]
+2003f25b	ackTx	0x1 Data Lc ash-ncp.o [45]
 
-2003f41f    totalInitialChildren    0x1 Data Gb zigbee-device-util.o [60]
+2003f25c	frmTx	0x1 Data Lc ash-ncp.o [45]
 
-00030940    totalTokenStorage    0x4 Data Gb sim-eeprom2.o [22]
+2003f25d	frmReTx	0x1 Data Lc ash-ncp.o [45]
 
-2003f210    tracePhase    0x1 Data Lc buffer-management.o [60]
+2003f25e	frmRx	0x1 Data Lc ash-ncp.o [45]
 
-2003fcd4    transactionExpirationTimeMS    00024fc0    transportKeyFrameSizes    0x8 Data Lc packet-validate.o [54]
+2003f25f	frmReTxHead	0x1 Data Lc ash-ncp.o [45]
 
-2003de6e    trustCenterPolicy    0x2 Data Lc command-handlers-security.o [51]
+2003f260	ashTimeouts	0x1 Data Lc ash-ncp.o [45]
 
-2003f1f0    txBuffer    0x4 Data Lc debug-extended.o [32]
+2003f261	ashFlags	0x1 Data Lc ash-ncp.o [45]
 
-2003f254    txBuffer    0x4 Data Lc ash-ncp.o [45]
+2003f262	rxLen	0x1 Data Lc ash-ncp.o [45]
 
-2003f1ee    txBufferLength    0x1 Data Lc debug-extended.o [32]
+2003f263	rxFirstDataBufferFree	0x1 Data Gb ash-ncp.o [45]
 
-2003f1ed    txBufferSize    0x1 Data Lc debug-extended.o [32]
+2003f264	ashSendExec::offset	0x1 Data Lc ash-ncp.o [45]
 
-2003dad6    txCompleteStatusPending    2003f274    txHighQueue    0x2 Data Lc ash-ncp.o [45]
+2003f266	rxBuffer	0x2 Data Lc ash-ncp.o [45]
 
-2003ffd5    txPowerMode    0x1 Data Lc command-handlers.o [34]
+2003f268	rxDataBuffer	0x2 Data Lc ash-ncp.o [45]
 
-2003f276    txQueue    0x2 Data Lc ash-ncp.o [45]
+2003f26a	rxFirstDataBuffer	0x2 Data Lc ash-ncp.o [45]
 
-2003dad8    txSchedulerInfo    0xc Data Lc lower-mac-rail-802.15.4.o [60]
+2003f26c	sendBuffer	0x2 Data Lc ash-ncp.o [45]
 
-2003ffd6    uartSynchCallbacks    0x1 Data Gb command-handlers.o [34]
+2003f270	ashSendExec::sendQueue	0x4 Data Lc ash-ncp.o [45]
 
-2003e854    uartdrvHandle    0x10 Data Lc uartdrv.o [12]
+2003f274	txHighQueue	0x2 Data Lc ash-ncp.o [45]
 
-2003ffbf    uartdrvHandleIsInitialized    2003e3e8    uarthandledata    0x38 Data Lc com.o [20]
+2003f276	txQueue	0x2 Data Lc ash-ncp.o [45]
 
-2003ffe7    unicastHead    0x1 Data Lc unicast-table.o [60]
+2003f278	reTxQueue	0x2 Data Lc ash-ncp.o [45]
 
-2003deb0    unicastRepliesPolicyDecision    2003fc76    unsolicitedChannelReport    2003f43c    unusedOriginalChannelMaskCache    2003f42c    unusedPanIdCache    0x2 Data Lc zigbee-scan.o [60]
+2003f27c	staticBuffer	0xdc Data Lc ash-ncp.o [45]
 
-2003ff02    updateTcLinkKeyState    0x1 Data Lc aps-keys.o [60]
+2003f358	RAILINT_1d8a0bd4448dc8ff7bf5baa2b859291d	0x20 Data Lc pa_conversions_efr32.o [40]
 
-2003ffe6    useLegacyTimeoutMethod    0x1 Data Gb child-handling.o [60]
+2003f378	RAIL_GetTxPowerCurve::powerCurves	0x8 Data Lc pa_conversions_efr32.o [40]
 
-2003ffc9    useNegotiatedPowerbyLinkPowerDelta    2003f228    userData    0x4 Data Lc buffer-management.o [60]
+2003f380	aesContext	0x24 Data Lc aes-efm32.o [60]
 
-2003f216    userDataCount    0x2 Data Lc buffer-management.o [60]
+2003f3a4	pendingAckedCount	0x1 Data Lc aps-retry.o [60]
 
-2003ffb7    vScaleEM01Config    0x1 Data Lc em_emu.o [13]
+2003f3a5	fragmentDelay	0x1 Data Lc aps-retry.o [60]
 
-2003dc5c    vpaStruct    0x8 Data Gb sim-eeprom2-internal.o [58]
+2003f3a8	emZigbeeApplicationEvent	0x8 Data Gb aps-retry.o [60]
 
-2003dc64    vpbStruct    0x8 Data Gb sim-eeprom2-internal.o [58]
+2003f3b0	lastEventTimeMs	0x2 Data Lc aps-retry.o [60]
 
-2003dc6c    vpcStruct    0x8 Data Gb sim-eeprom2-internal.o [58]
+2003f3b2	gAllowRejoinsWithWellKnownKey	0x2 Data Gb ember-configuration.o [18]
 
-2003e5f4    wakeInfo    0x4 Data Lc sleep-efm32.o [15]
+2003f3b4	emberAfPluginEzspZigbeeProPollTimer0EventControl	0x8 Data Gb polling.o [50]
 
-2003e5d8    wakeup_time_config_overhead_tick    2003ffb4    watchdogDisableInSleep    0x1 Data Lc sleep-efm32.o [15]
+2003f3bc	emberAfPluginEzspZigbeeProPollTimer1EventControl	0x8 Data Gb polling.o [50]
 
-2003deb3    zdoConfigurationModeEnabled    2003f424    zigDevApsStruct    0x4 Data Lc zigbee-device-util.o [60]
+2003f3c4	emberAfPluginEzspZigbeeProPollTimer2EventControl	0x8 Data Gb polling.o [50]
 
-2003f41c    zigDevRequestSequence    0x1 Data Lc zigbee-device-util.o [60]
+2003f3cc	emberAfPluginEzspZigbeeProPollTimer3EventControl	0x8 Data Gb polling.o [50]
 
-2003f798    zigbeeEventsNetworkIndex    00030998    zigbeeMacFilterList    0x10 Data Gb ember-configuration.o [18]
+2003f3d4	storedKeysList	0x2 Data Lc aps-keys-transient.o [56]
 
-2003f4c9    zllNodeType    0x1 Data Lc zll-api.o [62]
+2003f3d6	keyCount	0x2 Data Lc aps-keys-transient.o [56]
 
-2003f4dc    zllPrimaryChannelMask    0x4 Data Lc zll-api.o [62]
+2003f3d8	emTransientLinkKeyEventHandler::lastEventTimeMs	0x4 Data Lc aps-keys-transient.o [56]
 
-2003f504    zllSecondaryChannelMask    2003ffe3    zllSequenceNum    0x1 Data Lc zll-interpan.o [62]
+2003f3dc	emGpTxQueue	0x18 Data Gb gp-data.o [37]
+
+2003f3f4	cgpCmd	0x1 Data Gb gp-data.o [37]
+
+2003f3f8	emGpWriteIncomingFCEvent	0x8 Data Gb gp-data.o [37]
+
+2003f400	cgpOut	0x2 Data Lc gp-data.o [37]
+
+2003f402	emMacPermitAssociation	0x2 Data Gb ember-configuration.o [18]
+
+2003f404	lastGpdf	0x10 Data Lc gp-data.o [37]
+
+2003f414	emGpDuplicateEvent	0x8 Data Gb gp-data.o [37]
+
+2003f41c	zigDevRequestSequence	0x1 Data Lc zigbee-device-util.o [60]
+
+2003f41d	gProxyTheBroadcast	0x1 Data Lc zigbee-device-util.o [60]
+
+2003f41e	parentAnnounceIndex	0x1 Data Gb zigbee-device-util.o [60]
+
+2003f41f	totalInitialChildren	0x1 Data Gb zigbee-device-util.o [60]
+
+2003f420	gProxySourceNodeId	0x2 Data Lc zigbee-device-util.o [60]
+
+2003f424	zigDevApsStruct	0x4 Data Lc zigbee-device-util.o [60]
+
+2003f428	networkScanProcedure	0x1 Data Lc zigbee-scan.o [60]
+
+2003f429	channelCache	0x1 Data Lc zigbee-scan.o [60]
+
+2003f42a	scanDataCache	0x2 Data Gb zigbee-scan.o [60]
+
+2003f42c	unusedPanIdCache	0x2 Data Lc zigbee-scan.o [60]
+
+2003f430	emUnusedPanIdFoundCallback	0x4 Data Gb zigbee-scan.o [60]
+
+2003f434	emNetworkFoundCallback	0x4 Data Gb zigbee-scan.o [60]
+
+2003f438	emScanCompleteCallback	0x4 Data Gb zigbee-scan.o [60]
+
+2003f43c	unusedOriginalChannelMaskCache	0x4 Data Lc zigbee-scan.o [60]
+
+2003f440	emMacScanType	0x1 Data Gb zigbee-scan.o [60]
+
+2003f444	emEnergyScanResultCallback	0x4 Data Gb zigbee-scan.o [60]
+
+2003f448	joinState	0x14 Data Gb association.o [60]
+
+2003f45c	purgeBeaconsAfterJoinSuccess	0x1 Data Lc association.o [60]
+
+2003f460	emZigbeeAssociationEvent	0x8 Data Gb association.o [60]
+
+2003f468	networkInitData	0x2 Data Lc association.o [60]
+
+2003f46a	avgParentRssi	0x2 Data Gb association.o [60]
+
+2003f46c	beaconIterator	0x18 Data Gb association.o [60]
+
+2003f484	beaconListCount	0x1 Data Lc beacon-handling.o [60]
+
+2003f485	maxBeaconsToStore	0x1 Data Gb beacon-handling.o [60]
+
+2003f486	beaconIndex	0x1 Data Lc beacon-handling.o [60]
+
+2003f488	emZigbeeBeaconStorageEvent	0x8 Data Gb beacon-handling.o [60]
+
+2003f490	beaconList	0x2 Data Lc beacon-handling.o [60]
+
+2003f492	emPermitJoining	0x2 Data Gb ember-configuration.o [18]
+
+2003f494	nextBeaconIsEnhanced	0x1 Data Gb beacon-handling.o [60]
+
+2003f498	beaconRequesterEui	0x8 Data Gb beacon-handling.o [60]
+
+2003f4a0	keyDataCopy	0x10 Data Lc aps-security.o [60]
+
+2003f4b0	emNeighborEvent	0x8 Data Gb neighbor.o [60]
+
+2003f4b8	commissioningUnencryptedNetworkKey	0x10 Data Lc zll-api.o [62]
+
+2003f4c8	state	0x1 Data Lc zll-api.o [62]
+
+2003f4c9	zllNodeType	0x1 Data Lc zll-api.o [62]
+
+2003f4ca	amTouchlinkInitiator	0x1 Data Lc zll-api.o [62]
+
+2003f4cb	scanningInProgress	0x1 Data Lc zll-api.o [62]
+
+2003f4cc	commissioningJoinType	0x1 Data Lc zll-api.o [62]
+
+2003f4cd	originalRadioPower	0x1 Data Lc zll-api.o [62]
+
+2003f4ce	radioOnForRequestOnly	0x1 Data Lc zll-api.o [62]
+
+2003f4d0	emZllTouchLinkEvent	0x8 Data Gb zll-api.o [62]
+
+2003f4d8	commissioningNodeId	0x2 Data Lc zll-api.o [62]
+
+2003f4da	scanRequestInformation	0x2 Data Lc zll-api.o [62]
+
+2003f4dc	zllPrimaryChannelMask	0x4 Data Lc zll-api.o [62]
+
+2003f4e0	newNetwork	0x18 Data Lc zll-api.o [62]
+
+2003f4f8	suspendRxOnWhenIdle	0x1 Data Lc zll-api.o [62]
+
+2003f4f9	rxAlwaysOn	0x1 Data Lc zll-api.o [62]
+
+2003f4fc	emZllSetRxOnWhenIdleEvent	0x8 Data Gb zll-api.o [62]
+
+2003f504	zllSecondaryChannelMask	0x4 Data Lc zll-api.o [62]
+
+2003f508	commissioningZllNetwork	0x2c Data Lc zll-api.o [62]
+
+2003f534	emGpWriteIncomingFCInSinkEvent	0x8 Data Gb gp-sink-table.o [37]
+
+2003f53c	leaveReason	0x1 Data Lc leave.o [60]
+
+2003f540	emZigbeeLeaveEvent	0x8 Data Gb leave.o [60]
+
+2003f548	lastRejoinStartTime	0x4 Data Lc network.o [60]
+
+2003f54c	countSuperRetriesForMacDataPoll	0x1 Data Lc network.o [60]
+
+2003f550	emMacDataPollSuperRetriesEvent	0x8 Data Gb network.o [60]
+
+2003f558	superRetriesIntervalForMacDataPoll	0x4 Data Lc network.o [60]
+
+2003f55c	emCurrentLqi	0x1 Data Gb network.o [60]
+
+2003f55d	emCurrentRssi	0x1 Data Gb network.o [60]
+
+2003f55e	emCurrentChannel	0x1 Data Gb network.o [60]
+
+2003f560	emCurrentMacTimestamp	0x4 Data Gb network.o [60]
+
+2003f564	emberAfPluginEzspHostTimer0EventControl	0x8 Data Gb timers.o [34]
+
+2003f56c	emberAfPluginEzspHostTimer1EventControl	0x8 Data Gb timers.o [34]
+
+2003f574	RAILINT_c3a8f2115de33aa71c5b0c3927edb0bb	0x1 Data Lc rail_singleprotocol.o [40]
+
+2003f578	RAIL_ActiveHandle	0x4 Data Gb rail_singleprotocol.o [40]
+
+2003f57c	RAILINT_5c6bfe45ace488b868a3c3126769eb32	0x4 Data Lc rail_singleprotocol.o [40]
+
+2003f580	RAIL_DefaultRxFifo	0x200 Data Lc rail_data.o [40]
+
+2003f780	emCurrentNetworkIndex	0x1 Data Gb ember-multi-network.o [43]
+
+2003f781	emApplicationNetworkIndex	0x1 Data Gb ember-multi-network.o [43]
+
+2003f782	supportedNetworksDuringSave	0x1 Data Lc ember-multi-network.o [43]
+
+2003f784	emPollDelayingEvent	0x8 Data Gb ember-multi-network.o [43]
+
+2003f78c	currentNetworkStack	0xc Data Lc ember-multi-network.o [43]
+
+2003f798	zigbeeEventsNetworkIndex	0x4 Data Lc ember-multi-network.o [43]
+
+2003f79c	currentlyRunningEventControl	0x4 Data Lc event-control.o [60]
+
+2003f7a0	sl_mac_stack_filter_list	0x4 Data Gb mac-header.o [60]
+
+2003f7a4	sl_mac_custom_filter_list	0x4 Data Gb mac-header.o [60]
+
+2003f7a8	emLocalEui64	0x8 Data Gb eui64.o [60]
+
+2003f7b0	sl_mac_child_table_pointers	0x20 Data Lc mac-child.o [60]
+
+2003f7d0	child_table_pointer_stack	0x10 Data Lc mac-child.o [60]
+
+2003f7e0	sl_mac_child_table	0x4 Data Gb mac-child.o [60]
+
+2003f7e4	sl_mac_upper_mac_state	0x400 Data Gb upper-mac.o [60]
+
+2003fbe4	emUpperMacEvent	0x8 Data Gb upper-mac.o [60]
+
+2003fbec	sl_mac_indirect_event	0x8 Data Gb indirect-queue.o [60]
+
+2003fbf4	lastEventTimeMS	0x2 Data Lc indirect-queue.o [60]
+
+2003fbf6	longIndirectPool	0x2 Data Lc indirect-queue.o [60]
+
+2003fbf8	shortIndirectPool	0x2 Data Lc indirect-queue.o [60]
+
+2003fbfa	indirectTimeoutMs	0x2 Data Lc indirect-queue.o [60]
+
+2003fbfc	energy_scan_result_summary_index	0x1 Data Gb scan.o [60]
+
+2003fbfd	sl_scan_type	0x1 Data Lc scan.o [60]
+
+2003fbfe	sl_next_channel	0x1 Data Lc scan.o [60]
+
+2003fbff	sl_scan_duration	0x1 Data Lc scan.o [60]
+
+2003fc00	sl_scan_transmit_retries	0x1 Data Lc scan.o [60]
+
+2003fc01	broadcast_pan_when_scanning	0x1 Data Lc scan.o [60]
+
+2003fc02	energy_reads_min	0x1 Data Lc scan.o [60]
+
+2003fc03	energy_reads_max	0x1 Data Lc scan.o [60]
+
+2003fc04	sl_mac_scan_event	0x8 Data Gb scan.o [60]
+
+2003fc0c	sl_energy_scan_result_summary_buffer	0x2 Data Gb scan.o [60]
+
+2003fc0e	energy_reads_average	0x2 Data Lc scan.o [60]
+
+2003fc10	energy_reads_variance	0x2 Data Lc scan.o [60]
+
+2003fc14	sl_scan_frame_counter	0x4 Data Lc scan.o [60]
+
+2003fc18	sl_scan_channel_mask	0x4 Data Lc scan.o [60]
+
+2003fc1c	energy_reads_count	0x4 Data Lc scan.o [60]
+
+2003fc20	sl_mac_active_response_callback	0x4 Data Gb scan.o [60]
+
+2003fc24	sl_mac_scan_complete_callback	0x4 Data Gb scan.o [60]
+
+2003fc28	sli_mac_energy_scan_complete_callback	0x4 Data Gb scan.o [60]
+
+2003fc2c	sl_mac_energy_response_callback	0x4 Data Gb scan.o [60]
+
+2003fc30	RAILINT_4b2a638f543a6cc96706a5b37f7e60ca	0x1 Data Lc rail_rf_hal.o [40]
+
+2003fc32	RAILINT_2f82c85b6130cbf374f8cb60e14f8d16	0x2 Data Lc rail_rf_hal.o [40]
+
+2003fc34	RAILINT_2e2d15946cc40e034a0dc933bdf78d8f	0x8 Data Lc rail_rf_hal.o [40]
+
+2003fc3c	RAILINT_85daa417ca3172fe94c5a5a9118221ba	0x4 Data Lc rail_rf_hal.o [40]
+
+2003fc40	RAILINT_c943e87d8ae56dcac1081f203aa8ae88	0x4 Data Lc rail_rf_hal.o [40]
+
+2003fc44	RAILINT_e60841ee3f2c9cb0db5a37721cc632e3	0x4 Data Lc rail_rf_hal.o [40]
+
+2003fc48	RAILINT_423e000bb30cc62379cdf6bb3943cb50	0x4 Data Lc rail_rf_hal.o [40]
+
+2003fc4c	emCurrentMessageStatus	0x1 Data Gb zigbee-dispatch.o [60]
+
+2003fc4e	emCurrentSender	0x2 Data Gb zigbee-dispatch.o [60]
+
+2003fc50	emCurrentApsStruct	0x4 Data Gb zigbee-dispatch.o [60]
+
+2003fc54	emCurrentSenderEui64	0x4 Data Gb zigbee-dispatch.o [60]
+
+2003fc58	savedRequests	0x10 Data Lc end-device-bind.o [36]
+
+2003fc68	endDeviceBindState	0x1 Data Lc end-device-bind.o [36]
+
+2003fc69	localBindUnbindResponse	0x1 Data Lc end-device-bind.o [36]
+
+2003fc6c	emZigbeeDeviceEvent	0x8 Data Gb end-device-bind.o [36]
+
+2003fc74	changeToChannel	0x1 Data Lc zdo-channel.o [60]
+
+2003fc75	newNwkUpdateId	0x1 Data Lc zdo-channel.o [60]
+
+2003fc76	unsolicitedChannelReport	0x1 Data Lc zdo-channel.o [60]
+
+2003fc77	scansRemaining	0x1 Data Lc zdo-channel.o [60]
+
+2003fc78	macIsInactive	0x1 Data Lc zdo-channel.o [60]
+
+2003fc79	lastReportTimeMin	0x1 Data Lc zdo-channel.o [60]
+
+2003fc7a	oneScanDone	0x1 Data Lc zdo-channel.o [60]
+
+2003fc7c	emChannelChangeEvent	0x8 Data Gb zdo-channel.o [60]
+
+2003fc84	scanRequestHeader	0x2 Data Lc zdo-channel.o [60]
+
+2003fc86	scanResults	0x2 Data Lc zdo-channel.o [60]
+
+2003fc88	nextApsFrameCounter	0x4 Data Lc aps-encryption.o [60]
+
+2003fc8c	delayCount	0x1 Data Lc retry.o [60]
+
+2003fc8d	submitCount	0x1 Data Lc retry.o [60]
+
+2003fc8e	jitOrRetryTxBusy	0x1 Data Gb retry.o [60]
+
+2003fc90	emRetryDelayEvent	0x8 Data Gb retry.o [60]
+
+2003fc98	eventStartTime	0x4 Data Lc retry.o [60]
+
+2003fc9c	sleepyBroadcastInfo	0x1 Data Lc jit.o [60]
+
+2003fca0	emSleepyBroadcastEvent	0x8 Data Gb jit.o [60]
+
+2003fca8	emSleepyBroadcastHeader	0x2 Data Gb jit.o [60]
+
+2003fcaa	emCachedSleepyBroadcastHeader	0x2 Data Lc jit.o [60]
+
+2003fcac	currentJitFlag	0x2 Data Lc jit.o [60]
+
+2003fcae	blackListedIdByteArray	0x2 Data Gb ember-configuration.o [18]
+
+2003fcb0	customMacFilterTableSize	0x1 Data Gb memory-allocation.o [34]
+
+2003fcb4	emBufferToHostTagMap	0x4 Data Gb memory-allocation.o [34]
+
+2003fcb8	remainingMemory	0x4 Data Lc memory-allocation.o [34]
+
+2003fcbc	emCustomMacFilterMatchList	0x4 Data Gb zigbee-mac-header.o [60]
+
+2003fcc0	emGpMacFilterMatchList	0x4 Data Gb zigbee-mac-header.o [60]
+
+2003fcc4	emZllMacFilterMatchList	0x4 Data Gb zigbee-mac-header.o [60]
+
+2003fcc8	myLastResponseId	0x4 Data Lc zll-interpan.o [62]
+
+2003fccc	theirLastTransactionId	0x4 Data Lc zll-interpan.o [62]
+
+2003fcd0	myLastTransactionId	0x4 Data Lc zll-interpan.o [62]
+
+2003fcd4	transactionExpirationTimeMS	0x4 Data Lc zll-interpan.o [62]
+
+2003fcd8	targetEui64	0x8 Data Lc zll-interpan.o [62]
+
+2003fce0	receivedTimeoutResponse	0x1 Data Gb child-handling.o [60]
+
+2003fce1	responseTimeoutRemaining	0x1 Data Gb child-handling.o [60]
+
+2003fce4	emNetworkTimeoutRequestEvent	0x8 Data Gb child-handling.o [60]
+
+2003fcec	emWhatISupportAsAParent	0x2 Data Gb child-handling.o [60]
+
+2003fcee	panConflictMeters	0x2 Data Gb ember-configuration.o [18]
+
+2003fcf0	emLpdEvent	0x8 Data Gb child-handling.o [60]
+
+2003fcf8	emAgingEbrListEvent	0x8 Data Gb enhanced-beacon-request-stub.o [61]
+
+2003fd00	emUnicastTable	0x20 Data Gb unicast-table.o [60]
+
+2003fd20	emForcedAddressAssignment	0x10 Data Lc zll-address-assignment.o [62]
+
+2003fd30	storeAndForwardDelayCount	0x1 Data Lc store-forward.o [60]
+
+2003fd31	storeAndForwardSubmitCount	0x1 Data Lc store-forward.o [60]
+
+2003fd34	emStoreAndForwardDelayEvent	0x8 Data Gb store-forward.o [60]
+
+2003fd3c	eventStoreAndForwardStartTime	0x4 Data Lc store-forward.o [60]
+
+2003fd40	emberCounters	0x54 Data Gb counters.o [34]
+
+2003fd94	emberCountersThresholds	0x54 Data Gb counters.o [34]
+
+2003fde8	emberMultiNetworkCounters	0x44 Data Gb counters.o [34]
+
+2003fe2c	emberMacCounters	0x84 Data Gb counters.o [34]
+
+2003feb0	RAILINT_3cd35eba74683fc1c08cc722a0dd59ce	0x4 Data Lc rfhal_rfsense.o [40]
+
+2003feb4	RAILINT_8a2d97b6bab0d1c54595b6fc77f4f0c9	0x4 Data Lc rfhal_rfsense.o [40]
+
+2003feb8	RAILINT_caddcc9ad1825e2897d11e3a2086ebe9	0x4 Data Lc rfhal_rfsense.o [40]
+
+2003febc	RAILINT_58bd48a2143c34fa720b4012496498b2	0x14 Data Gb rfhal_ircal.o [40]
+
+2003fed0	RAILINT_f3684411cae4d808564c574655845f60	0x1 Data Lc rfhal_ircal.o [40]
+
+2003fed1	addressCacheSize	0x1 Data Gb security-address-cache.o [50]
+
+2003fed2	addressCacheStartIndex	0x1 Data Lc security-address-cache.o [50]
+
+2003fed3	nextIndex	0x1 Data Lc security-address-cache.o [50]
+
+2003fed4	RAILINT_8a869172492fd52037b11475c864ae39	0x8 Data Gb rfhal_protimer.o [40]
+
+2003fedc	RAILINT_2fb29802233c0b2640c9261daa520efe	0x4 Data Lc rfhal_protimer.o [40]
+
+2003fee0	RAILINT_2d842bc4956df1568fdd528b3b124237	0x4 Data Lc rfhal_protimer.o [40]
+
+2003fee4	RAILINT_61c9d71f684b76e42282d930d521b075	0x4 Data Lc rfhal_protimer.o [40]
+
+2003fee8	RAILINT_2c75618186ad9b36b0d0c27032e410f8	0x4 Data Lc rfhal_protimer.o [40]
+
+2003feec	RAILINT_116bc923d0e61993c95103150eecb77d	0x14 Data Lc rfhal_pti.o [40]
+
+2003ff00	RAILINT_7ad7e5b1a0ea3682b74d10bd3632dab5	0x1 Data Lc rfhal_pti.o [40]
+
+2003ff01	bdbTcLinkKeyExchangeAttempts	0x1 Data Lc aps-keys.o [60]
+
+2003ff02	updateTcLinkKeyState	0x1 Data Lc aps-keys.o [60]
+
+2003ff03	emGpIncomingFCTokenTableSize	0x1 Data Gb ember-configuration.o [18]
+
+2003ff04	RAILINT_5af293f26bd991a9d327f7f4a7555b1c	0x30 Data Lc rfhal_rftest.o [40]
+
+2003ff34	RAILINT_a0781153baaf8d786a619788645f0d69	0x1 Data Lc rfhal_synth.o [40]
+
+2003ff35	RAILINT_d8932959c24193a8cc469b484c683e17	0x1 Data Lc rfhal_synth.o [40]
+
+2003ff36	RAILINT_dd3ea969c0a5ea83a9285b75ec51e3d1	0x1 Data Lc rfhal_synth.o [40]
+
+2003ff38	RAILINT_271c6718290e2f8d30ab861e3b599124	0x4 Data Lc rfhal_synth.o [40]
+
+2003ff3c	RAILINT_447e5dac20fd9c5dfa98d0c6fd17af77	0x4 Data Lc rfhal_synth.o [40]
+
+2003ff40	RAILINT_198fb20d7a5714430b804cdff0070c61	0x4 Data Lc rfhal_timings.o [40]
+
+2003ff44	ezspBuffer	0x2 Data Lc serial-interface-uart.o [18]
+
+2003ff46	delayTestStartTime	0x2 Data Lc serial-interface-uart.o [18]
+
+2003ff48	delayTestDelayLength	0x2 Data Lc serial-interface-uart.o [18]
+
+2003ff4a	savedResetCause	0x2 Data Lc cstartup-common.o [15]
+
+2003ff4c	requirement_em_table	0x2 Data Lc sl_power_manager.o [15]
+
+2003ff4e	dcdcMaxCurrent_mA	0x2 Data Lc em_emu.o [13]
+
+2003ff50	dcdcEm01LoadCurrent_mA	0x2 Data Lc em_emu.o [13]
+
+2003ff52	dcdcReverseCurrentControl	0x2 Data Lc em_emu.o [13]
+
+2003ff54	overflow_counter	0x2 Data Lc sl_sleeptimer.o [12]
+
+2003ff56	callbackOverflow	0x1 Data Gb stack-callbacks.o [34]
+
+2003ff58	callbackQueue	0x2 Data Gb stack-callbacks.o [34]
+
+2003ff5a	emDescriptorCapability	0x1 Data Gb zigbee-device.o [60]
+
+2003ff5c	serverMask	0x2 Data Gb zigbee-device.o [60]
+
+2003ff5e	requestKeyBuffer	0x2 Data Lc trust-center-util.o [60]
+
+2003ff60	cbkeData283k1Buffer	0x2 Data Gb command-handlers-cbke.o [47]
+
+2003ff62	routeTableTimer	0x1 Data Lc route-table.o [60]
+
+2003ff64	lastAgingTimeQs	0x2 Data Lc route-table.o [60]
+
+2003ff66	emNetworkToApplicationQueue	0x2 Data Gb network.o [60]
+
+2003ff68	addDelay	0x2 Data Lc network.o [60]
+
+2003ff6a	initialEzspVersionSent	0x1 Data Lc command-handlers.o [34]
+
+2003ff6b	responseSequence	0x1 Data Gb command-handlers.o [34]
+
+2003ff6c	permittedCommands	0x1 Data Gb command-handlers.o [34]
+
+2003ff6d	responseTruncated	0x1 Data Gb command-handlers.o [34]
+
+2003ff6e	emAfPluginEzspCurrentCommandNetworkIndex	0x1 Data Gb command-handlers.o [34]
+
+2003ff70	emAfPluginEzspCurrentCommandFrameId	0x2 Data Gb command-handlers.o [34]
+
+2003ff72	ashAckTimer	0x2 Data Gb ash-common.o [45]
+
+2003ff74	ashAckPeriod	0x2 Data Gb ash-common.o [45]
+
+2003ff76	ashDecodeInProgress	0x1 Data Gb ash-common.o [45]
+
+2003ff77	decodeLen	0x1 Data Lc ash-common.o [45]
+
+2003ff78	decodeFlip	0x1 Data Lc ash-common.o [45]
+
+2003ff79	decodeByte1	0x1 Data Lc ash-common.o [45]
+
+2003ff7a	decodeByte2	0x1 Data Lc ash-common.o [45]
+
+2003ff7c	decodeCrc	0x2 Data Lc ash-common.o [45]
+
+2003ff7e	encodeEscFlag	0x1 Data Lc ash-common.o [45]
+
+2003ff7f	encodeFlip	0x1 Data Lc ash-common.o [45]
+
+2003ff80	encodeState	0x1 Data Lc ash-common.o [45]
+
+2003ff81	encodeCount	0x1 Data Lc ash-common.o [45]
+
+2003ff82	encodeCrc	0x2 Data Lc ash-common.o [45]
+
+2003ff84	emberEndpointCount	0x1 Data Gb endpoint-data.o [50]
+
+2003ff86	endpointDataQueue	0x2 Data Lc endpoint-data.o [50]
+
+2003ff88	RAILINT_694c95a636c2676b38874f440d01cfce	0x2 Data Lc rail_rf_hal.o [40]
+
+2003ff8a	age	0x1 Data Lc broadcast.o [60]
+
+2003ff8b	emNewBroadcastEntryThreshold	0x1 Data Gb broadcast.o [60]
+
+2003ff8c	lastAgingTime	0x2 Data Lc broadcast.o [60]
+
+2003ff8e	cacheBuffer	0x2 Data Lc token-cache.o [60]
+
+2003ff90	routeErrorThreshold	0x1 Data Lc source-route-update.o [59]
+
+2003ff91	deliveryFailureThreshold	0x1 Data Lc source-route-update.o [59]
+
+2003ff92	maxHops	0x1 Data Lc source-route-update.o [59]
+
+2003ff93	routeErrorCount	0x1 Data Lc source-route-update.o [59]
+
+2003ff94	deliveryFailureCount	0x1 Data Lc source-route-update.o [59]
+
+2003ff95	sendAddressDiscoveryNextEvent	0x1 Data Lc source-route-update.o [59]
+
+2003ff96	activeEvent	0x1 Data Gb source-route-update.o [59]
+
+2003ff98	concentratorType	0x2 Data Lc source-route-update.o [59]
+
+2003ff9a	minQS	0x2 Data Lc source-route-update.o [59]
+
+2003ff9c	maxQS	0x2 Data Lc source-route-update.o [59]
+
+2003ff9e	emMacToNetworkQueue	0x2 Data Gb mac-dispatch.o [60]
+
+2003ffa0	emGpIncomingFCInSinkTokenTableSize	0x1 Data Gb ember-configuration.o [18]
+
+2003ffa1	emGpSinkTableSize	0x1 Data Gb ember-configuration.o [18]
+
+2003ffa2	emFragmentDelayMs	0x1 Data Gb ember-configuration.o [18]
+
+2003ffa3	emberTrustCenterLinkKeyRequestPolicy	0x1 Data Gb ember-configuration.o [18]
+
+2003ffa4	emCertificateTableSize	0x1 Data Gb ember-configuration.o [18]
+
+2003ffa5	emAppZdoConfigurationFlags	0x1 Data Gb ember-configuration.o [18]
+
+2003ffa6	emDefaultStackProfile	0x1 Data Gb ember-configuration.o [18]
+
+2003ffa7	emRequestKeyTimeout	0x1 Data Gb ember-configuration.o [18]
+
+2003ffa8	emSendMulticastsToSleepyAddress	0x1 Data Gb ember-configuration.o [18]
+
+2003ffa9	emZllPolicy	0x1 Data Gb ember-configuration.o [18]
+
+2003ffaa	emZllApplyThresholdToAllInterpans	0x1 Data Gb ember-configuration.o [18]
+
+2003ffab	is_initialized	0x1 Data Lc sl_power_manager.o [15]
+
+2003ffac	requirement_high_accuracy_hf_clock_counter	0x1 Data Gb sl_power_manager.o [15]
+
+2003ffad	current_em	0x1 Data Lc sl_power_manager.o [15]
+
+2003ffae	is_states_saved	0x1 Data Lc sl_power_manager.o [15]
+
+2003ffaf	requirement_on_em1_added	0x1 Data Lc sl_power_manager.o [15]
+
+2003ffb0	is_hf_x_oscillator_not_preserved	0x1 Data Lc sl_power_manager.o [15]
+
+2003ffb1	is_hf_x_oscillator_used	0x1 Data Lc sl_power_manager_hal_s0_s1.o [15]
+
+2003ffb2	is_hf_x_oscillator_already_started	0x1 Data Lc sl_power_manager_hal_s0_s1.o [15]
+
+2003ffb3	is_dpll_used	0x1 Data Lc sl_power_manager_hal_s0_s1.o [15]
+
+2003ffb4	watchdogDisableInSleep	0x1 Data Lc sleep-efm32.o [15]
+
+2003ffb5	tokensActive	0x1 Data Gb token.o [15]
+
+2003ffb6	simEeSetDataActiveSemaphore	0x1 Data Gb token.o [15]
+
+2003ffb7	vScaleEM01Config	0x1 Data Lc em_emu.o [13]
+
+2003ffb8	emState::hfClock	0x1 Data Lc em_emu.o [13]
+
+2003ffb9	emState::vScaleStatus	0x1 Data Lc em_emu.o [13]
+
+2003ffba	initialized	0x1 Data Lc dmadrv.o [12]
+
+2003ffbb	is_sleeptimer_initialized	0x1 Data Lc sl_sleeptimer.o [12]
+
+2003ffbc	next_timer_to_expire_is_power_manager	0x1 Data Lc sl_sleeptimer.o [12]
+
+2003ffbd	sleep_on_isr_exit	0x1 Data Lc sl_sleeptimer.o [12]
+
+2003ffbe	TEMPDRV_InitState	0x1 Data Lc tempdrv.o [12]
+
+2003ffbf	uartdrvHandleIsInitialized	0x1 Data Lc uartdrv.o [12]
+
+2003ffc0	timeElapsed	0x1 Data Lc ustimer.o [12]
+
+2003ffc1	sequenceNumber	0x1 Data Lc debug-jtag-efr32.o [9]
+
+2003ffc2	debugChannelState	0x1 Data Lc debug-jtag-efr32.o [9]
+
+2003ffc3	adcPendingRequests	0x1 Data Lc adc-efr32.o [2]
+
+2003ffc4	adcPendingConversion	0x1 Data Lc adc-efr32.o [2]
+
+2003ffc5	adcReadingValid	0x1 Data Lc adc-efr32.o [2]
+
+2003ffc6	halSimEepromCallback{1}{2}{6}::repairActive	0x1 Data Lc ncp-callback-stubs.o [1]
+
+2003ffc7	radioPowerFem::femPowered	0x1 Data Lc lower-mac-rail-802.15.4.o [60]
+
+2003ffc8	emMfglibMode	0x1 Data Gb lower-mac-rail-802.15.4.o [60]
+
+2003ffc9	useNegotiatedPowerbyLinkPowerDelta	0x1 Data Gb lower-mac-rail-802.15.4.o [60]
+
+2003ffca	broadcastNetworkKeySequenceNumber	0x1 Data Lc trust-center-util.o [60]
+
+2003ffcb	tagMapInited	0x1 Data Lc command-handlers-zigbee-pro.o [50]
+
+2003ffcc	emRequestLinkKeyUpdate	0x1 Data Gb aps-keys-transient.o [56]
+
+2003ffcd	gNwkUpdateId	0x1 Data Gb association.o [60]
+
+2003ffce	newChannel	0x1 Data Lc association.o [60]
+
+2003ffcf	initialOutgoingCost	0x1 Data Lc neighbor.o [60]
+
+2003ffd0	emStackTask	0x1 Data Gb zigbee-stack.o [60]
+
+2003ffd1	emCurrentZdoRequestStatus	0x1 Data Gb application-support.o [60]
+
+2003ffd2	nwkSequenceNumber	0x1 Data Lc application-support.o [60]
+
+2003ffd3	emMacRetries	0x1 Data Gb network.o [60]
+
+2003ffd4	oldCheckCca	0x1 Data Lc mfglib.o [42]
+
+2003ffd5	txPowerMode	0x1 Data Lc command-handlers.o [34]
+
+2003ffd6	uartSynchCallbacks	0x1 Data Gb command-handlers.o [34]
+
+2003ffd7	allowIdling	0x1 Data Lc event-control.o [60]
+
+2003ffd8	emActiveTaskCount	0x1 Data Lc event-control.o [60]
+
+2003ffd9	emMultiPanEventTask	0x1 Data Gb multi-pan-common.o [44]
+
+2003ffda	mac_outgoing_sequence_number	0x1 Data Lc upper-mac.o [60]
+
+2003ffdb	ashNrTimer	0x1 Data Gb ash-common.o [45]
+
+2003ffdc	sleepMode	0x1 Data Gb main.o [34]
+
+2003ffdd	entryCount	0x1 Data Lc source-route-table.o [59]
+
+2003ffde	emCurrentBindingIndex	0x1 Data Gb zigbee-dispatch.o [60]
+
+2003ffdf	emTreeDepth	0x1 Data Gb random-id.o [60]
+
+2003ffe0	emEndDeviceChildCount	0x1 Data Gb child.o [60]
+
+2003ffe1	routeRequestId	0x1 Data Lc route-discovery.o [60]
+
+2003ffe2	emberMacPassthroughFlags	0x1 Data Gb zigbee-mac-header.o [60]
+
+2003ffe3	zllSequenceNum	0x1 Data Lc zll-interpan.o [62]
+
+2003ffe4	firstScanChannel	0x1 Data Lc zll-interpan.o [62]
+
+2003ffe5	scanAttempts	0x1 Data Lc zll-interpan.o [62]
+
+2003ffe6	useLegacyTimeoutMethod	0x1 Data Gb child-handling.o [60]
+
+2003ffe7	unicastHead	0x1 Data Lc unicast-table.o [60]
+
+2003ffe8	pollQueueHead	0x1 Data Lc multi-network.o [60]
+
+2003ffe9	RAILINT_12d0a500396abb3bce50542312241d3c	0x1 Data Lc rfhal_synth.o [40]
 

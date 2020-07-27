@@ -41,7 +41,7 @@ def clean_data(lines,symbols):
 	for c in range(len(symbols)):
 		strings = symbols[c].split(' ')
 		new_string = [x for x in strings if x]
-		print(c,new_string)
+		#print(c,new_string)
 		if len(new_string) == 6:
 			address = clean_address(new_string[0])
 			entry = lines[c-1].replace("\n","")
@@ -49,7 +49,7 @@ def clean_data(lines,symbols):
 			clean_string = address + "\t" + entry + "\t" + info + "\n"
 			#print("6 items, ADDRESS,ENTRY,INFO: ",address,',',entry,',',info) 
 			clean_symbols.append(clean_string)
-			print(clean_symbols[len(clean_symbols)-1])
+			#print(clean_symbols[len(clean_symbols)-1])
 		elif len(new_string) == 7:
 			address = clean_address(new_string[1])
 			entry = new_string[0]
@@ -57,15 +57,16 @@ def clean_data(lines,symbols):
 			clean_string = address + "\t" + entry + "\t" + info + "\n"
 			#print("ADDRESS,ENTRY,INFO: ",address,',',entry,',',info) 
 			clean_symbols.append(clean_string)
-			print(clean_symbols[len(clean_symbols)-1])
+			#print(clean_symbols[len(clean_symbols)-1])
 		else: 
 			info = ''
-			print("HIT ELSE\n")
+			#print("HIT ELSE\n")
 
 		
 	return clean_symbols
 
 def sort_data(clean_symbols):
-	sorted_symbols = clean_symbols.sort()
-	for x in sorted_symbols: print(x)
-	return sorted_symbols
+	# for x in sorted(clean_symbols): print x
+	clean_symbols.sort()
+	for x in clean_symbols: print(x)
+	return clean_symbols
