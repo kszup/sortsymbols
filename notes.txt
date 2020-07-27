@@ -1,0 +1,36 @@
+notes.txt
+
+grep -e "  Code  " -e "  Data  " $1 | awk -F0x '{print $2 " " $1 " " $3'} | sort
+
+Search for lines with "  Code  " or "  Data  "
+Sort them on "0x" value
+
+for line in lines:
+  if "  Code  " in line: 
+    symbols.append(line)
+  elif "  Data  " in line: 
+    symbols.append(line)
+  else:
+    symbols.append('a')
+
+s1 = symbols[6541].split('  ')
+s2 = symbols[6543].split('  ')
+
+for name in vars().keys(): print(name)
+
+s1 = sym3[6541].split('   ')
+s2 = sym3[6543].split('   ')
+
+ad1 = s1[5]
+ad2 = s2[8]
+
+ad1 = ad1.replace("'","")
+ad1 = ad1.replace(" 0x","000")
+
+
+First split line, then get length.
+If first item is not empty or empty find address
+If length of address is length fix address
+
+For line grab and sort
+ address, entry, codes size, type, file:
