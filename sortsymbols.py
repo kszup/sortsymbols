@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # coding=utf-8
-"""This script sorts symbols in IAR .MAP file."""
+"""This script sorts symbols in an IAR .MAP file."""
 
 # sortsymbols.py - Sort Symbols in IAR .MAP file.
 # https://github.com/kszup/sortsymbols.git
