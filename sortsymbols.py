@@ -10,7 +10,7 @@ import ssHelper as h
 VERSION = "0.1"
 
 def main():
-    lines = h.get_data('mp.map')
+    lines = h.get_data('mymp.map')
     symbols = h.get_symbols(lines)
     clean_symbols = h.clean_data(lines,symbols)
     f = open('output.txt','w')
